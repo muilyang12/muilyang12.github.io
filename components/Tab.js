@@ -10,6 +10,19 @@ export default class Tab extends HTMLElement {
     this.render();
   }
 
+  connectedCallback() {
+    this.addEventListener("click", (event) => {
+      const tabName = this.getAttribute("tabName");
+
+      let newUrl;
+
+      if (tabName === "home") newUrl = `/index.html`;
+      else newUrl = `/${tabName}.html`;
+
+      window.location.href = newUrl;
+    });
+  }
+
   render() {
     this.shadowRoot.innerHTML = `
       <div>

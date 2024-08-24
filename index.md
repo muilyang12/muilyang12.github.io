@@ -4,7 +4,6 @@
 
 Hello! I'm currently pursuing my Master's degree in Computer Science at The University of Texas at Dallas. With over three years of professional experience as a software engineer, I've honed my skills in various technologies and developed a strong foundation in both frontend and backend development. I'm passionate about solving complex problems and building innovative applications. I'm now seeking a software engineer internship position where I can contribute my expertise and continue to grow in the field.
 
-
 ### Experience
 
 - Jan. 2021 – May 2024: **Software Engineer** @ _Midas IT (MIDASoft Inc.)_, Republic of Korea
@@ -15,6 +14,12 @@ Hello! I'm currently pursuing my Master's degree in Computer Science at The Univ
 - Aug. 2024 – Present: Computer Science @ _The University of Texas at Dallas_, Richardson, TX
 - Mar. 2021 – Aug. 2023: Computer Science @ _Korea National Open University_, Republic of Korea
 - Mar. 2013 – Feb. 2021: Engineering @ _Yonsei University_, Republic of Korea
+
+### Certification
+
+- AWS Certified Machine Learning - Specialty <sub>Issued Aug. 2024, Expires Aug. 2027</sub>
+- AWS Certified Security - Specialty <sub>Issued Jul. 2024, Expires Jul. 2027</sub>
+- AWS Certified Developer - Associate <sub>Issued Feb. 2024, Expires Feb. 2027</sub>
 
 ### Technical Skills
 

@@ -1,3 +1,13 @@
 html, body {
     height: 100%;
 }
+
+main {
+    height: 100%;
+    
+    background-color: #955670;
+}
+
+* {
+	box-sizing: border-box;
+}

@@ -18,9 +18,6 @@ export default class Tabs extends HTMLElement {
 
         <style>
             div {
-                margin: 0;
-                padding: 0;
-
                 display: flex;
                 gap: 12px;
                 

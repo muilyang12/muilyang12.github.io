@@ -18,18 +18,34 @@ export default class Projects extends HTMLElement {
                 <div class="projects-title">Projects</div>
 
                 ${PROJECTS.map((exp) => {
-                  const { title, period, techStack, description } = exp;
+                  const { title, link, period, techStack, description } = exp;
+
+                  let linkHTML = "";
+                  if (typeof link === "string")
+                    linkHTML = `
+                        <my-link linkUrl=${link}>Link</my-link>
+                    `;
+                  else if (typeof link === "object") {
+                    linkHTML = `
+                        <p>Links</p>
+                    `;
+                  }
 
                   return `
                     <div class="projects-item">
                         <div class="projects-info">
-                            <span class="projects-info-title">
-                                ${title}
-                            </span>
+                            <div>
+                                <span class="projects-info-title">
+                                    ${title}
+                                </span>
+
+                                ${linkHTML}
+                            </div>
                             <span class="projects-info-period">
                                 ${period}
                             </span>
                         </div>
+
                         <div class="projects-tech-stack">
                             ${techStack
                               .map((tech) => {
@@ -39,6 +55,7 @@ export default class Projects extends HTMLElement {
                               })
                               .join("")}
                         </div>
+
                         <my-expand summary="Show details">
                             <ul class="projects-description">
                                 ${description
@@ -106,6 +123,12 @@ export default class Projects extends HTMLElement {
                 justify-content: space-between;
             }
 
+            .projects-info > div {
+                display: flex;
+                gap: 4px;
+                align-items: center;
+            }
+
             .projects-info-title {
                 font-size: 20px;
                 font-weight: bold;
@@ -127,6 +150,14 @@ export default class Projects extends HTMLElement {
 
                 background: ${Maroon};
                 color: ${Peach};
+            }
+
+            ul {
+                margin: 1px 0;
+
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
             }
         </style>
     `;

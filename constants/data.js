@@ -31,6 +31,15 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    title: "Personal Website",
+    type: "Personal Project",
+    period: "Aug. 2024",
+    techStack: ["Web Components API", "Pure JS"],
+    description: [
+      "Developed my personal website using Web Components API and pure JavaScript, without relying on React.js.",
+    ],
+  },
+  {
     title: "AI Veggie Cat",
     type: "Hackathon Project",
     period: "Jul. 2024",
@@ -43,24 +52,35 @@ export const PROJECTS = [
     title: "Nutrition Specs",
     type: "Personal Project",
     period: "Jun. 2024 – Jul. 2024",
-    techStack: ["Next.js", "Django", "SQLite", "Amazon Web Services (AWS)", "OpenAI API"],
-    description: [
-      "Developed an AI-based automatic food ingredient ordering service using Clova Studio, a Korean-language specialized LLM service similar to the OpenAI API, with Next.js, Flask, and Naver Cloud.",
+    link: "https://www.nutrition-specs.com/ice-cream",
+    techStack: [
+      "Next.js",
+      "Django",
+      "SQLite",
+      "Amazon Web Services (AWS)",
+      "Selenium",
+      "OpenAI API",
     ],
-  },
-  {
-    title: "WebGPU Study",
-    type: "Personal Project",
-    period: "BBBBB",
-    techStack: ["WebGPU", "Webpack"],
-    description: [""],
+    description: [
+      "Developed a web service for comparing nutritional information across multiple products within the same category using Next.js, Django, and Amazon Web Services (AWS).",
+      "Implemented a crawler application using Selenium, Tkinter, and the OpenAI API to collect nutritional data.",
+    ],
   },
   {
     title: "Three.js Study",
     type: "Personal Project",
-    period: "BBBBB",
+    period: "Feb. 2023 – May. 2023",
+    link: ["https://www.nutrition-specs.com/ice-cream"],
     techStack: ["Three.js", "Webpack"],
-    description: [""],
+    description: ["Created 3D web pages using Three.js as part of my personal study."],
+  },
+  {
+    title: "WebGPU Study",
+    type: "Personal Project",
+    period: "Sep. 2022 – Dec. 2022",
+    link: ["https://www.nutrition-specs.com/ice-cream"],
+    techStack: ["WebGPU", "Webpack"],
+    description: ["Created 3D web pages using WebGPU as part of my personal study."],
   },
   {
     title: "3D Model AR Viewer",

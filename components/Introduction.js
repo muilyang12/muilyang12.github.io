@@ -16,7 +16,7 @@ export default class Introduction extends HTMLElement {
         <div class="introduction-wrapper">
             <div class="introduction">
                 <div class="left">
-                    <img src="MuilYang_Photo.jpg" width="230" />
+                    <img src="./assets/MuilYang_Photo.jpg" width="230" />
                 </div>
                 <div class="right">
                     <p>${INTRODUCTION_TITLE}</p>

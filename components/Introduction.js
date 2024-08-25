@@ -1,5 +1,5 @@
-import { MidnightBlue, Peach } from "../../constants/color.js";
-import { INTRODUCTION } from "../../constants/data.js";
+import { MidnightBlue, Peach } from "../constants/color.js";
+import { INTRODUCTION, INTRODUCTION_TITLE } from "../constants/data.js";
 
 export default class Introduction extends HTMLElement {
   constructor() {
@@ -16,9 +16,10 @@ export default class Introduction extends HTMLElement {
         <div class="introduction-wrapper">
             <div class="introduction">
                 <div class="left">
-                    <img src="MuilYang_Photo.jpg" width="250" />
+                    <img src="MuilYang_Photo.jpg" width="230" />
                 </div>
                 <div class="right">
+                    <p>${INTRODUCTION_TITLE}</p>
                     ${INTRODUCTION}
                 </div>
             </div>
@@ -27,11 +28,12 @@ export default class Introduction extends HTMLElement {
         <style>
             .introduction-wrapper {
                 width: 100%;
-                padding-top: 100px;
+                height: 100vh;
 
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                justify-content: center;
             }
 
             .introduction {
@@ -54,12 +56,17 @@ export default class Introduction extends HTMLElement {
             }
 
             .right {
-                flex: 1;
+                flex: 1.5;
 
                 padding: 50px 50px;
 
                 color: ${MidnightBlue};
-                font-size: 20px;
+                font-size: 18px;
+            }
+
+            .right p {
+                font-size: 28px;
+                font-weight: bold;
             }
         </style>
     `;

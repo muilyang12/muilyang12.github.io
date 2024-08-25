@@ -92,3 +92,24 @@ export const PROJECTS = [
     ],
   },
 ];
+
+export const CERTIFICATIONS = [
+  {
+    name: "AWS Certified Machine Learning - Specialty",
+    issuedDate: "Aug. 10th 2024",
+    expiresDate: "Aug. 10th 2027",
+    fileName: "./assets/AWS Certificate - Machine Learning.pdf",
+  },
+  {
+    name: "AWS Certified Security - Specialty",
+    issuedDate: "Jul. 24th 2024",
+    expiresDate: "Jul. 24th 2027",
+    fileName: "./assets/AWS Certificate - Security.pdf",
+  },
+  {
+    name: "AWS Certified Developer - Associate",
+    issuedDate: "Fet. 18th 2024",
+    expiresDate: "Fet. 18th 2027",
+    fileName: "./assets/AWS Certificate - Developer.pdf",
+  },
+];

@@ -112,6 +112,14 @@ export default class Experience extends HTMLElement {
                 display: flex;
                 justify-content: space-between;
             }
+
+            ul {
+                margin: 1px 0;
+
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+            }
         </style>
     `;
   }

@@ -28,3 +28,47 @@ export const EXPERIENCE = [
     ],
   },
 ];
+
+export const PROJECTS = [
+  {
+    title: "AI Veggie Cat",
+    type: "Hackathon Project",
+    period: "Jul. 2024",
+    techStack: ["Next.js", "Flask", "Naver Cloud", "Clova Studio (Korean LLM Service API)"],
+    description: [
+      "Developed an AI-based automatic food ingredient ordering service using Clova Studio, a Korean-language specialized LLM service similar to the OpenAI API, with Next.js, Flask, and Naver Cloud.",
+    ],
+  },
+  {
+    title: "Nutrition Specs",
+    type: "Personal Project",
+    period: "Jun. 2024 – Jul. 2024",
+    techStack: ["Next.js", "Django", "SQLite", "Amazon Web Services (AWS)", "OpenAI API"],
+    description: [
+      "Developed an AI-based automatic food ingredient ordering service using Clova Studio, a Korean-language specialized LLM service similar to the OpenAI API, with Next.js, Flask, and Naver Cloud.",
+    ],
+  },
+  {
+    title: "WebGPU Study",
+    type: "Personal Project",
+    period: "BBBBB",
+    techStack: ["WebGPU", "Webpack"],
+    description: [""],
+  },
+  {
+    title: "Three.js Study",
+    type: "Personal Project",
+    period: "BBBBB",
+    techStack: ["Three.js", "Webpack"],
+    description: [""],
+  },
+  {
+    title: "3D Model AR Viewer",
+    type: "Class Project",
+    period: "Dec. 2022",
+    techStack: ["React.js", "WebXR", "Node.js", "MySQL"],
+    description: [
+      "Developed an AR application utilizing WebXR and a Node.js server to view GLTF files integrated with the surrounding environment.",
+    ],
+  },
+];

@@ -66,7 +66,7 @@ export const PROJECTS = [
     title: "3D Model AR Viewer",
     type: "Class Project",
     period: "Dec. 2022",
-    techStack: ["React.js", "WebXR", "Node.js", "MySQL"],
+    techStack: ["React.js", "WebXR", "Node.js", "Express.js", "MySQL"],
     description: [
       "Developed an AR application utilizing WebXR and a Node.js server to view GLTF files integrated with the surrounding environment.",
     ],

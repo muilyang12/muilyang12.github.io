@@ -67,9 +67,11 @@ export default class Experience extends HTMLElement {
             }
 
             .experience {
+	            box-sizing: border-box;
+
                 width: 900px;
-                height: 450px;
-                padding: 30px;
+                min-height: 450px;
+                padding: 20px 30px;
 
                 display: flex;
                 flex-direction: column;

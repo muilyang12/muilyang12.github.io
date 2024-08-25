@@ -1,5 +1,8 @@
 html, body {
-    height: 100%;
+    height: fit-content;
+
+    font-family: "Roboto", sans-serif;
+    line-height: 1.1;
 }
 
 main {

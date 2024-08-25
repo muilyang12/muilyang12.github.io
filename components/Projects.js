@@ -73,6 +73,7 @@ export default class Projects extends HTMLElement {
                 width: 900px;
                 min-height: 450px;
                 padding: 30px;
+                border-radius: 20px;
 
                 display: flex;
                 flex-direction: column;

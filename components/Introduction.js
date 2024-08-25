@@ -39,6 +39,7 @@ export default class Introduction extends HTMLElement {
             .introduction {
                 width: 900px;
                 height: 450px;
+                border-radius: 20px;
 
                 display: flex;
                 align-items: center;

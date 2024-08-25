@@ -35,21 +35,23 @@ export default class Projects extends HTMLElement {
                               .map((tech) => {
                                 return `
                                 <div class="projects-tech-item">${tech}</div>
-                              `;
+                            `;
                               })
                               .join("")}
                         </div>
-                        <ul class="projects-description">
-                            ${description
-                              .map((des) => {
-                                return `
-                                <li>
-                                    ${des}
-                                </li>
-                                `;
-                              })
-                              .join("")}
-                        </ul>
+                        <my-expand summary="Show details">
+                            <ul class="projects-description">
+                                ${description
+                                  .map((des) => {
+                                    return `
+                                    <li>
+                                        ${des}
+                                    </li>
+                                    `;
+                                  })
+                                  .join("")}
+                            </ul>
+                        </my-expand>
                     </div>
                   `;
                 }).join("")}
@@ -118,6 +120,8 @@ export default class Projects extends HTMLElement {
 
             .projects-tech-item {
                 padding: 4px 6px;
+                
+                font-size: 14px;
 
                 border-radius: 12px;
 

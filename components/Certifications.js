@@ -22,7 +22,7 @@ export default class Certifications extends HTMLElement {
 
                   return `
                     <div class="certification-item">
-                        <div>
+                        <div class="certification-info">
                             <span class="certification-name">
                                 ${name}
                             </span>
@@ -82,6 +82,12 @@ export default class Certifications extends HTMLElement {
 
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
+            }
+
+            .certification-info {
+                display: flex;
+                gap: 8px;
                 align-items: center;
             }
 

@@ -130,7 +130,7 @@ export default class Projects extends HTMLElement {
 
             .projects-info > div {
                 display: flex;
-                gap: 4px;
+                gap: 8px;
                 align-items: center;
             }
 

@@ -74,7 +74,11 @@ export default class Projects extends HTMLElement {
 
                         <my-expand summary="Show details">
                             <div class="project-detail">
-                                ${imgSrc ? `<img src="${imgSrc}" width="800" />` : ""}
+                                ${
+                                  imgSrc
+                                    ? `<img src="${imgSrc}" width="800" alt="Image for project ${title}" />`
+                                    : ""
+                                }
 
                                 <ul class="projects-description">
                                     ${description

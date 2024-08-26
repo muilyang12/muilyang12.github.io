@@ -1,4 +1,6 @@
 import Expand, { ExpandComponentName } from "./components/core/Expand.js";
+import Modal, { ModalComponentName } from "./components/core/Modal.js";
+import ModalButton, { ModalButtonComponentName } from "./components/core/ModalButton.js";
 import Link, { LinkComponentName } from "./components/core/Link.js";
 import Introduction, { IntroductionComponentName } from "./components/Introduction.js";
 import Experience, { ExperienceComponentName } from "./components/Experience.js";
@@ -6,6 +8,8 @@ import Project, { ProjectsComponentName } from "./components/Projects.js";
 import Certifications, { CertificationsComponentName } from "./components/Certifications.js";
 
 customElements.define(ExpandComponentName, Expand);
+customElements.define(ModalComponentName, Modal);
+customElements.define(ModalButtonComponentName, ModalButton);
 customElements.define(LinkComponentName, Link);
 
 customElements.define(IntroductionComponentName, Introduction);

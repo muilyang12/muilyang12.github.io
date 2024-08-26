@@ -32,8 +32,6 @@ export default class Expand extends HTMLElement {
         <style>
           details {
             border: none;
-
-            cursor: pointer;
           }
 
           details[open] svg {
@@ -50,7 +48,9 @@ export default class Expand extends HTMLElement {
             align-items: center;
             gap: 4px;
 
-            color: ${Maroon}
+            color: ${Maroon};
+            
+            cursor: pointer;
           }
         </style>
     `;

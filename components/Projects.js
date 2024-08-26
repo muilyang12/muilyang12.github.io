@@ -92,8 +92,8 @@ export default class Projects extends HTMLElement {
             .projects {
 	            box-sizing: border-box;
 
-                width: 1200px;
-                padding: 50px;
+                width: 1500px;
+                padding: 80px;
                 border-radius: 20px;
 
                 display: flex;
@@ -157,14 +157,14 @@ export default class Projects extends HTMLElement {
 
             .project-detail {
                 margin-top: 12px;
-                padding: 40px 10px;
-                border: 1px solid ${Maroon};
+                padding: 60px 40px;
+                border: 2px solid ${Maroon};
                 border-radius: 16px;
 
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 20px;
+                gap: 60px;
             }
 
             ul {
@@ -172,7 +172,11 @@ export default class Projects extends HTMLElement {
 
                 display: flex;
                 flex-direction: column;
-                gap: 2px;
+                gap: 4px;
+            }
+
+            li {
+                line-height: 1.3;
             }
         </style>
     `;

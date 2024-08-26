@@ -55,8 +55,8 @@ export default class Certifications extends HTMLElement {
             .certifications {
 	            box-sizing: border-box;
 
-                width: 1200px;
-                padding: 50px;
+                width: 1500px;
+                padding: 80px;
                 border-radius: 20px;
 
                 display: flex;
@@ -78,7 +78,7 @@ export default class Certifications extends HTMLElement {
 
             .certification-item {
                 width: 100%;
-                padding: 10px;
+                padding: 2px 10px;
 
                 display: flex;
                 justify-content: space-between;

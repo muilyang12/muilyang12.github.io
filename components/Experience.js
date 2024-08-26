@@ -79,7 +79,7 @@ export default class Experience extends HTMLElement {
                 background-color: ${Peach};
                 color: ${MidnightBlue};
 
-                font-size: 20px;
+                font-size: 24px;
             }
 
             .experience-title {

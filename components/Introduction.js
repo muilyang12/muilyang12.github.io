@@ -49,7 +49,7 @@ export default class Introduction extends HTMLElement {
                 background-color: ${Peach};
                 color: ${MidnightBlue};
 
-                font-size: 20px;
+                font-size: 24px;
             }
 
             .left {

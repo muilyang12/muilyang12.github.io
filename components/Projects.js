@@ -103,7 +103,7 @@ export default class Projects extends HTMLElement {
                 background-color: ${Peach};
                 color: ${MidnightBlue};
 
-                font-size: 20px;
+                font-size: 24px;
             }
 
             .projects-title {
@@ -140,23 +140,23 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-tech-stack {
-                margin-top: 2px;
+                margin: 3px 0;
 
                 display: flex;
-                gap: 4px;
+                gap: 5px;
             }
 
             .projects-tech-item {
-                padding: 6px 8px;
+                padding: 7px 9px;
 
-                border-radius: 12px;
+                border-radius: 14px;
 
                 background: ${Maroon};
                 color: ${Peach};
             }
 
             .project-detail {
-                margin-top: 10px;
+                margin-top: 12px;
                 padding: 40px 10px;
                 border: 1px solid ${Maroon};
                 border-radius: 16px;

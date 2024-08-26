@@ -46,6 +46,11 @@ export default class Modal extends HTMLElement {
         </dialog>
 
         <style>
+          dialog {
+            border: none;
+            outline: none;
+          }
+
           dialog::backdrop {
             background: black;
             opacity: 0.3;

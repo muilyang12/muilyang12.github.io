@@ -55,7 +55,7 @@ export default class Introduction extends HTMLElement {
             .introduction {
 	            box-sizing: border-box;
 
-                width: 1500px;
+                width: 77%;
                 margin-left: 100px;
                 padding: 80px 50px;
                 border-radius: 20px;

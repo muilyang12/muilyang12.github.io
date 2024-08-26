@@ -109,7 +109,7 @@ export default class Projects extends HTMLElement {
             .projects {
 	            box-sizing: border-box;
 
-                width: 1500px;
+                width: 77%;
                 margin-left: 100px;
                 padding: 80px;
                 border-radius: 20px;

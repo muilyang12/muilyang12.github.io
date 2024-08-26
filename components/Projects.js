@@ -11,9 +11,25 @@ export default class Projects extends HTMLElement {
     this.render();
   }
 
+  connectedCallback() {
+    window.addEventListener("hashchange", this.handleHashChange.bind(this));
+    this.handleHashChange();
+  }
+
+  disconnectedCallback() {
+    window.removeEventListener("hashchange", this.handleHashChange.bind(this));
+  }
+
+  handleHashChange() {
+    const hash = window.location.hash.substring(1);
+
+    if (hash === "projects")
+      this.shadowRoot.querySelector("section").scrollIntoView({ behavior: "smooth" });
+  }
+
   render() {
     this.shadowRoot.innerHTML = `
-        <div class="projects-wrapper">
+        <section id="projects" class="projects-wrapper">
             <div class="projects">
                 <div class="projects-title">Projects</div>
 
@@ -77,11 +93,12 @@ export default class Projects extends HTMLElement {
                   `;
                 }).join("")}
             </div>
-        </div>
+        </section>
 
         <style>
             .projects-wrapper {
                 width: 100%;
+                padding-top: 50px;
 
                 display: flex;
                 flex-direction: column;

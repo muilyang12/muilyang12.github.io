@@ -11,9 +11,25 @@ export default class Introduction extends HTMLElement {
     this.render();
   }
 
+  connectedCallback() {
+    window.addEventListener("hashchange", this.handleHashChange.bind(this));
+    this.handleHashChange();
+  }
+
+  disconnectedCallback() {
+    window.removeEventListener("hashchange", this.handleHashChange.bind(this));
+  }
+
+  handleHashChange() {
+    const hash = window.location.hash.substring(1);
+
+    if (hash === "introduction")
+      this.shadowRoot.querySelector("section").scrollIntoView({ behavior: "smooth" });
+  }
+
   render() {
     this.shadowRoot.innerHTML = `
-        <div class="introduction-wrapper">
+        <section id="introduction" class="introduction-wrapper">
             <div class="introduction">
                 <div class="left">
                     <img src="./assets/MuilYang_Photo.jpg" width="300" />
@@ -23,7 +39,7 @@ export default class Introduction extends HTMLElement {
                     <div>${INTRODUCTION}</div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <style>
             .introduction-wrapper {

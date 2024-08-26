@@ -11,9 +11,25 @@ export default class Certifications extends HTMLElement {
     this.render();
   }
 
+  connectedCallback() {
+    window.addEventListener("hashchange", this.handleHashChange.bind(this));
+    this.handleHashChange();
+  }
+
+  disconnectedCallback() {
+    window.removeEventListener("hashchange", this.handleHashChange.bind(this));
+  }
+
+  handleHashChange() {
+    const hash = window.location.hash.substring(1);
+
+    if (hash === "certifications")
+      this.shadowRoot.querySelector("section").scrollIntoView({ behavior: "smooth" });
+  }
+
   render() {
     this.shadowRoot.innerHTML = `
-        <div class="certifications-wrapper">
+        <section id="certifications" class="certifications-wrapper">
             <div class="certifications">
                 <div class="certifications-title">Certifications</div>
 
@@ -40,11 +56,12 @@ export default class Certifications extends HTMLElement {
                   `;
                 }).join("")}
             </div>
-        </div>
+        </section>
 
         <style>
             .certifications-wrapper {
                 width: 100%;
+                padding-top: 50px;
 
                 display: flex;
                 flex-direction: column;

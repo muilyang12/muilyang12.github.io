@@ -11,9 +11,25 @@ export default class Experience extends HTMLElement {
     this.render();
   }
 
+  connectedCallback() {
+    window.addEventListener("hashchange", this.handleHashChange.bind(this));
+    this.handleHashChange();
+  }
+
+  disconnectedCallback() {
+    window.removeEventListener("hashchange", this.handleHashChange.bind(this));
+  }
+
+  handleHashChange() {
+    const hash = window.location.hash.substring(1);
+
+    if (hash === "experience")
+      this.shadowRoot.querySelector("section").scrollIntoView({ behavior: "smooth" });
+  }
+
   render() {
     this.shadowRoot.innerHTML = `
-        <div class="experience-wrapper">
+        <section id="experience" class="experience-wrapper">
             <div class="experience">
                 <div class="experience-title">Experience</div>
 
@@ -53,11 +69,12 @@ export default class Experience extends HTMLElement {
                   `;
                 }).join("")}
             </div>
-        </div>
+        </section>
 
         <style>
             .experience-wrapper {
                 width: 100%;
+                padding-top: 50px;
 
                 display: flex;
                 flex-direction: column;

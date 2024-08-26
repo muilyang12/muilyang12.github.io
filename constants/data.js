@@ -30,23 +30,27 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Personal Website",
-    type: "Personal Project",
-    period: "Aug. 2024",
-    techStack: ["Web Components API", "Pure JS"],
-    description: [
-      "Developed my personal website using Web Components API and pure JavaScript, without relying on React.js.",
-    ],
-  },
+  // {
+  //   title: "Personal Website",
+  //   type: "Personal Project",
+  //   period: "Aug. 2024",
+  //   techStack: ["Web Components API", "Pure JS"],
+  //   description: [
+  //     "Developed my personal website using Web Components API and pure JavaScript, without relying on React.js.",
+  //   ],
+  // },
   {
     title: "AI Veggie Cat",
     type: "Hackathon Project",
     period: "Jul. 2024",
-    techStack: ["Next.js", "Flask", "Naver Cloud", "Clova Studio (Korean LLM Service API)"],
+    techStack: ["Next.js", "Zustand", "Flask", "SQLite", "Naver Cloud"],
     imgSrc: "./assets/Projects - AI Veggie Cat.png",
     description: [
-      "Developed an AI-based automatic food ingredient ordering service using Clova Studio, a Korean-language specialized LLM service similar to the OpenAI API, with Next.js, Flask, and Naver Cloud.",
+      "This project was created during the SPARCS AI Startup Hackathon.",
+      "It is an AI-based service for automatically ordering food ingredients. The service uses OCR to read a menu from an uploaded image, extracts a list of ingredients needed for the dishes, and then automatically places orders for them.",
+      "I wanted to create an application using an LLM API, so when a hackathon requiring the use of an LLM API was organized, I participated and developed this project.",
+      "I improved my time management skills by prioritizing high-impact tasks for the project demonstration, and I learned how to collaborate efficiently during the process of selecting and coordinating the product to be developed.",
+      "I used a tech stack including Next.js, Zustand, Flask, SQLite, and Naver Cloud.",
     ],
   },
   {
@@ -64,8 +68,10 @@ export const PROJECTS = [
     ],
     imgSrc: "./assets/Projects - Nutrition Specs.png",
     description: [
-      "Developed a web service for comparing nutritional information across multiple products within the same category using Next.js, Django, and Amazon Web Services (AWS).",
-      "Implemented a crawler application using Selenium, Tkinter, and the OpenAI API to collect nutritional data.",
+      "This project was developed independently by me.",
+      "It is a web service for comparing nutritional information across multiple products within the same category. For example, if you search for 'yogurt,' the service will display the nutritional content of various yogurt products.",
+      "I wanted to gain experience in deploying a web service using Amazon Web Services (AWS), so I used AWS services like ECR, EC2, S3, CloudFront, ACM, and Route 53 to deploy the service.",
+      "I used a tech stack including Next.js, Django, SQLite, Amazon Web Services (AWS), Selenium, and the OpenAI API.",
     ],
   },
   {
@@ -75,7 +81,12 @@ export const PROJECTS = [
     link: "https://github.com/muilyang12/Three.js-Study",
     techStack: ["Three.js", "Webpack"],
     imgSrc: "./assets/Projects - Three.js Study.png",
-    description: ["Created 3D web pages using Three.js as part of my personal study."],
+    description: [
+      "This project is a personal learning endeavor I undertook to study Three.js.",
+      "I followed a tutorial by a YouTuber named <my-link linkUrl='https://www.youtube.com/@gisdeveloper'><i>GIS Developer</i></my-link> to create this project.",
+      "I deployed the project through GitHub Pages, and you can view the details of each development item in the README on the GitHub link.",
+      "I developed it using Three.js, Webpack, and basic HTML/CSS/JavaScript.",
+    ],
   },
   {
     title: "WebGPU Study",
@@ -84,7 +95,12 @@ export const PROJECTS = [
     link: "https://github.com/muilyang12/WebGPU-Study",
     techStack: ["WebGPU", "Webpack"],
     imgSrc: "./assets/Projects - WebGPU Study.png",
-    description: ["Created 3D web pages using WebGPU as part of my personal study."],
+    description: [
+      "This project is a personal learning endeavor I undertook to study WebGPU.",
+      "I followed a tutorial by a YouTuber named <my-link linkUrl='https://www.youtube.com/@GetIntoGameDev'><i>GetIntoGameDev</i></my-link> to create this project.",
+      "I deployed the project through GitHub Pages, and you can view the details of each development item in the README on the GitHub link.",
+      "I developed it using WebGPU, Webpack, and basic HTML/CSS/JavaScript.",
+    ],
   },
   {
     title: "3D Model AR Viewer",

@@ -9,6 +9,12 @@ main {
     height: 100%;
     
     background-color: #955670;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    padding-bottom: 200px;
 }
 
 * {

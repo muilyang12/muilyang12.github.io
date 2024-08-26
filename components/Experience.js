@@ -58,7 +58,6 @@ export default class Experience extends HTMLElement {
         <style>
             .experience-wrapper {
                 width: 100%;
-                min-height: 100vh;
 
                 display: flex;
                 flex-direction: column;
@@ -69,9 +68,8 @@ export default class Experience extends HTMLElement {
             .experience {
 	            box-sizing: border-box;
 
-                width: 900px;
-                min-height: 450px;
-                padding: 20px 30px;
+                width: 1200px;
+                padding: 50px;
                 border-radius: 20px;
 
                 display: flex;
@@ -79,14 +77,16 @@ export default class Experience extends HTMLElement {
                 align-items: center;
 
                 background-color: ${Peach};
-                color: ${MidnightBlue}
+                color: ${MidnightBlue};
+
+                font-size: 20px;
             }
 
             .experience-title {
-                font-size: 28px;
+                font-size: 40px;
                 font-weight: bold;
 
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
 
             .experience-item {
@@ -101,10 +101,11 @@ export default class Experience extends HTMLElement {
             .experience-position {
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
             }
 
             .position-title {
-                font-size: 20px;
+                font-size: 30px;
                 font-weight: bold;
             }
             
@@ -118,7 +119,7 @@ export default class Experience extends HTMLElement {
 
                 display: flex;
                 flex-direction: column;
-                gap: 2px;
+                gap: 4px;
             }
         </style>
     `;

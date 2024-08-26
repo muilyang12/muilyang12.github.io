@@ -78,7 +78,6 @@ export default class Projects extends HTMLElement {
         <style>
             .projects-wrapper {
                 width: 100%;
-                min-height: 100vh;
 
                 display: flex;
                 flex-direction: column;
@@ -89,9 +88,8 @@ export default class Projects extends HTMLElement {
             .projects {
 	            box-sizing: border-box;
 
-                width: 900px;
-                min-height: 450px;
-                padding: 30px;
+                width: 1200px;
+                padding: 50px;
                 border-radius: 20px;
 
                 display: flex;
@@ -99,14 +97,16 @@ export default class Projects extends HTMLElement {
                 align-items: center;
 
                 background-color: ${Peach};
-                color: ${MidnightBlue}
+                color: ${MidnightBlue};
+
+                font-size: 20px;
             }
 
             .projects-title {
-                font-size: 28px;
+                font-size: 40px;
                 font-weight: bold;
 
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
 
             .projects-item {
@@ -121,6 +121,7 @@ export default class Projects extends HTMLElement {
             .projects-info {
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
             }
 
             .projects-info > div {
@@ -130,7 +131,7 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-info-title {
-                font-size: 20px;
+                font-size: 30px;
                 font-weight: bold;
             }
 
@@ -142,9 +143,7 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-tech-item {
-                padding: 4px 6px;
-                
-                font-size: 14px;
+                padding: 6px 8px;
 
                 border-radius: 12px;
 

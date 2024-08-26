@@ -45,7 +45,6 @@ export default class Certifications extends HTMLElement {
         <style>
             .certifications-wrapper {
                 width: 100%;
-                min-height: 100vh;
 
                 display: flex;
                 flex-direction: column;
@@ -56,9 +55,8 @@ export default class Certifications extends HTMLElement {
             .certifications {
 	            box-sizing: border-box;
 
-                width: 900px;
-                min-height: 450px;
-                padding: 20px 30px;
+                width: 1200px;
+                padding: 50px;
                 border-radius: 20px;
 
                 display: flex;
@@ -66,14 +64,16 @@ export default class Certifications extends HTMLElement {
                 align-items: center;
 
                 background-color: ${Peach};
-                color: ${MidnightBlue}
+                color: ${MidnightBlue};
+
+                font-size: 20px;
             }
 
             .certifications-title {
-                font-size: 28px;
+                font-size: 40px;
                 font-weight: bold;
 
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
 
             .certification-item {
@@ -82,10 +82,11 @@ export default class Certifications extends HTMLElement {
 
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
             }
 
             .certification-name {
-                font-size: 20px;
+                font-size: 24px;
                 font-weight: bold;
             }
 

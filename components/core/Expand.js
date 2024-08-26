@@ -46,10 +46,10 @@ export default class Expand extends HTMLElement {
             
             display: flex;
             align-items: center;
-            gap: 4px;
+            gap: 6px;
 
             color: ${Maroon};
-            
+
             cursor: pointer;
           }
         </style>

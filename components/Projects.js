@@ -168,15 +168,12 @@ export default class Projects extends HTMLElement {
             }
 
             ul {
+                width: 100%;
                 margin: 1px 0;
 
                 display: flex;
                 flex-direction: column;
-                gap: 4px;
-            }
-
-            li {
-                line-height: 1.3;
+                gap: 5px;
             }
         </style>
     `;

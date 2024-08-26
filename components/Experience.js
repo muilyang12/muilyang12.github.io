@@ -86,6 +86,7 @@ export default class Experience extends HTMLElement {
 	            box-sizing: border-box;
 
                 width: 1500px;
+                margin-left: 100px;
                 padding: 80px;
                 border-radius: 20px;
 

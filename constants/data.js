@@ -44,6 +44,7 @@ export const PROJECTS = [
     type: "Hackathon Project",
     period: "Jul. 2024",
     techStack: ["Next.js", "Flask", "Naver Cloud", "Clova Studio (Korean LLM Service API)"],
+    imgSrc: "./assets/Projects - AI Veggie Cat.png",
     description: [
       "Developed an AI-based automatic food ingredient ordering service using Clova Studio, a Korean-language specialized LLM service similar to the OpenAI API, with Next.js, Flask, and Naver Cloud.",
     ],
@@ -61,6 +62,7 @@ export const PROJECTS = [
       "Selenium",
       "OpenAI API",
     ],
+    imgSrc: "./assets/Projects - Nutrition Specs.png",
     description: [
       "Developed a web service for comparing nutritional information across multiple products within the same category using Next.js, Django, and Amazon Web Services (AWS).",
       "Implemented a crawler application using Selenium, Tkinter, and the OpenAI API to collect nutritional data.",
@@ -72,6 +74,7 @@ export const PROJECTS = [
     period: "Feb. 2023 – May. 2023",
     link: "https://github.com/muilyang12/Three.js-Study",
     techStack: ["Three.js", "Webpack"],
+    imgSrc: "./assets/Projects - Three.js Study.png",
     description: ["Created 3D web pages using Three.js as part of my personal study."],
   },
   {
@@ -80,6 +83,7 @@ export const PROJECTS = [
     period: "Sep. 2022 – Dec. 2022",
     link: "https://github.com/muilyang12/WebGPU-Study",
     techStack: ["WebGPU", "Webpack"],
+    imgSrc: "./assets/Projects - WebGPU Study.png",
     description: ["Created 3D web pages using WebGPU as part of my personal study."],
   },
   {

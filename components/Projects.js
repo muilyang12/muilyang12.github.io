@@ -18,7 +18,7 @@ export default class Projects extends HTMLElement {
                 <div class="projects-title">Projects</div>
 
                 ${PROJECTS.map((exp) => {
-                  const { title, link, period, techStack, description } = exp;
+                  const { title, link, period, techStack, imgSrc, description } = exp;
 
                   let linkHTML = "";
                   if (typeof link === "string")
@@ -57,17 +57,21 @@ export default class Projects extends HTMLElement {
                         </div>
 
                         <my-expand summary="Show details">
-                            <ul class="projects-description">
-                                ${description
-                                  .map((des) => {
-                                    return `
-                                    <li>
-                                        ${des}
-                                    </li>
-                                    `;
-                                  })
-                                  .join("")}
-                            </ul>
+                            <div class="project-detail">
+                                ${imgSrc ? `<img src="${imgSrc}" width="800" />` : ""}
+
+                                <ul class="projects-description">
+                                    ${description
+                                      .map((des) => {
+                                        return `
+                                        <li>
+                                            ${des}
+                                        </li>
+                                        `;
+                                      })
+                                      .join("")}
+                                </ul>
+                            </div>
                         </my-expand>
                     </div>
                   `;
@@ -149,6 +153,18 @@ export default class Projects extends HTMLElement {
 
                 background: ${Maroon};
                 color: ${Peach};
+            }
+
+            .project-detail {
+                margin-top: 10px;
+                padding: 40px 10px;
+                border: 1px solid ${Maroon};
+                border-radius: 16px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
             }
 
             ul {

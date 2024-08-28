@@ -17,17 +17,8 @@
     </h1>
     <script>
         window.addEventListener("load", () => {
-            lovelyCat = document.querySelector("#layerNeko0");
-
-            lovelyCat.style.clip = "rect(0px, 50px, 50px, 0px)";
-
-            lovelyCatImg = lovelyCat.querySelector("img");
-            lovelyCatImg.style.width = "50px";
-
-            lovelyCatA = lovelyCat.querySelector("a");
-            console.log(lovelyCat);
-
-            lovelyCatA.click()
+            lovelyCat = document.querySelector("#layerNeko0 > a");
+            lovelyCat.click()
         })
     </script>
 

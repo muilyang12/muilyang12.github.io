@@ -142,8 +142,8 @@ export const CERTIFICATIONS = [
   },
   {
     name: "AWS Certified Developer - Associate",
-    issuedDate: "Fet. 18th 2024",
-    expiresDate: "Fet. 18th 2027",
+    issuedDate: "Feb. 18th 2024",
+    expiresDate: "Feb. 18th 2027",
     fileName: "./assets/AWS Certificate - Developer.pdf",
   },
 ];

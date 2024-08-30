@@ -12,9 +12,10 @@ export const EXPERIENCE = [
     description: [
       "Developed <i>Midas Workspace</i>, a collaboration tool designed for architectural and civil engineers, featuring a 3D model viewer and file drive.",
       "Elevated the visual representation of the 3D model viewer by integrating terrain data from ArcGIS with satellite imagery, enabling accurate visualizations of buildings and their immediate surroundings.",
-      "Enhanced functionality by implementing real-time features like screen sharing and user presence tracking using WebSocket.",
-      "Developed common design systems and Node.js CLI tools for frontend teams, enhancing development efficiency.",
-      "Optimized the UI development of the company's Windows desktop application by integrating Microsoft Edge WebView2, allowing seamless use of the web UI from our web services.",
+      "Utilized Next.js's Lazy Loading to separate non-essential components from the initial render, reducing the bundle size by approximately 10%.",
+      "Introduced Recoil for lightweight state management and efficient handling of class instances, and actively integrated real-time functionality using WebSocket.",
+      "Redesigned the Midas Members, a membership management service, using Next.js, leading approximately 50% of customers to transition to email-based accounts.",
+      "Optimized the UI development of the company’s Windows desktop application by integrating Microsoft Edge WebView2, allowing seamless use of the web UI from our web services.",
     ],
   },
   {
@@ -24,7 +25,17 @@ export const EXPERIENCE = [
     companyLocation: "Arlington, TX",
     description: [
       "Designed and developed a flood monitoring system comprised of an embedded system and web service to monitor flood-prone areas.",
-      "Engineered and deployed a Node.js HTTP server for collection and developed a website to visualize the data through graphs.",
+      "Reduced the system's power consumption by 40% by transitioning from Arduino Mega to Atmel microcontrollers, carefully selecting hardware that provided the appropriate level of computing power for our project.",
+      "Engineered and deployed a Node.js HTTP server on AWS for data collection and developed a website to visualize the data through graphs.",
+    ],
+  },
+  {
+    title: "Private Mathematics Tutor",
+    period: "Mar. 2017 - Jun. 2019",
+    companyName: "Self-employed",
+    companyLocation: "Seoul, Republic of Korea",
+    description: [
+      "Taught Korean SAT prep courses focused on Mathematics, covering Discrete Mathematics, Statistics, Calculus, and Spatial Geometry.",
     ],
   },
 ];

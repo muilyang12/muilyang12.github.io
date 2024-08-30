@@ -55,7 +55,7 @@ export const PROJECTS = [
     type: "Hackathon Project",
     period: "Jul. 2024",
     techStack: ["Next.js", "Zustand", "Flask", "SQLite", "Naver Cloud"],
-    imgSrc: "./assets/Projects - AI Veggie Cat.png",
+    imgSrcs: ["./assets/Projects - AI Veggie Cat.png"],
     description: [
       "This project was created during the SPARCS AI Startup Hackathon.",
       "It is an AI-based service for automatically ordering food ingredients. The service uses OCR to read a menu from an uploaded image, extracts a list of ingredients needed for the dishes, and then automatically places orders for them.",
@@ -77,7 +77,10 @@ export const PROJECTS = [
       "Selenium",
       "OpenAI API",
     ],
-    imgSrc: "./assets/Projects - Nutrition Specs.png",
+    imgSrcs: [
+      "./assets/Projects - Nutrition Specs.png",
+      "./assets/Projects - Nutrition Specs (Architecture).png",
+    ],
     description: [
       "This project was developed independently by me.",
       "It is a web service for comparing nutritional information across multiple products within the same category. For example, if you search for 'yogurt,' the service will display the nutritional content of various yogurt products.",
@@ -91,7 +94,7 @@ export const PROJECTS = [
     period: "Feb. 2023 – May. 2023",
     link: "https://github.com/muilyang12/Three.js-Study",
     techStack: ["Three.js", "Webpack"],
-    imgSrc: "./assets/Projects - Three.js Study.png",
+    imgSrcs: ["./assets/Projects - Three.js Study.png"],
     description: [
       "This project is a personal learning endeavor I undertook to study Three.js.",
       "I followed a tutorial by a YouTuber named <my-link linkUrl='https://www.youtube.com/@gisdeveloper'><i>GIS Developer</i></my-link> to create this project.",
@@ -105,7 +108,7 @@ export const PROJECTS = [
     period: "Sep. 2022 – Dec. 2022",
     link: "https://github.com/muilyang12/WebGPU-Study",
     techStack: ["WebGPU", "Webpack"],
-    imgSrc: "./assets/Projects - WebGPU Study.png",
+    imgSrcs: ["./assets/Projects - WebGPU Study.png"],
     description: [
       "This project is a personal learning endeavor I undertook to study WebGPU.",
       "I followed a tutorial by a YouTuber named <my-link linkUrl='https://www.youtube.com/@GetIntoGameDev'><i>GetIntoGameDev</i></my-link> to create this project.",

@@ -34,7 +34,7 @@ export default class Projects extends HTMLElement {
                 <div class="projects-title">Projects</div>
 
                 ${PROJECTS.map((exp) => {
-                  const { title, link, period, techStack, imgSrc, description } = exp;
+                  const { title, link, period, techStack, imgSrcs, description } = exp;
 
                   let linkHTML = "";
                   if (typeof link === "string")
@@ -75,8 +75,19 @@ export default class Projects extends HTMLElement {
                         <my-expand summary="Show details">
                             <div class="project-detail">
                                 ${
-                                  imgSrc
-                                    ? `<img src="${imgSrc}" width="800" alt="Image for project ${title}" />`
+                                  imgSrcs && imgSrcs.length > 0
+                                    ? `
+                                      <div class="project-images">
+                                        ${imgSrcs
+                                          .map(
+                                            (imgSrc, index) => `
+                                              <img src="${imgSrc}" width="800" alt="Image ${
+                                              index + 1
+                                            } for project ${title}" />
+                                            `
+                                          )
+                                          .join("")}
+                                      </div>`
                                     : ""
                                 }
 
@@ -187,6 +198,13 @@ export default class Projects extends HTMLElement {
                 flex-direction: column;
                 align-items: center;
                 gap: 60px;
+            }
+
+            .project-images {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                justify-content: center;
             }
 
             ul {

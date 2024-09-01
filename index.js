@@ -7,6 +7,7 @@ import Introduction, { IntroductionComponentName } from "./components/Introducti
 import Experience, { ExperienceComponentName } from "./components/Experience.js";
 import Project, { ProjectsComponentName } from "./components/Projects.js";
 import Certifications, { CertificationsComponentName } from "./components/Certifications.js";
+import Education, { EducationComponentName } from "./components/Education.js";
 
 customElements.define(ExpandComponentName, Expand);
 customElements.define(ModalComponentName, Modal);
@@ -18,3 +19,4 @@ customElements.define(IntroductionComponentName, Introduction);
 customElements.define(ExperienceComponentName, Experience);
 customElements.define(ProjectsComponentName, Project);
 customElements.define(CertificationsComponentName, Certifications);
+customElements.define(EducationComponentName, Education);

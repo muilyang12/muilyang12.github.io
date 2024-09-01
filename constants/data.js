@@ -147,3 +147,30 @@ export const CERTIFICATIONS = [
     fileName: "./assets/AWS Certificate - Developer.pdf",
   },
 ];
+
+export const EDUCATION = [
+  {
+    schoolName: "The University of Texas at Dallas",
+    location: "Richardson, TX",
+    major: "Master of Science in Computer Science",
+    period: "Aug. 2024 - May 2026 (Expected)",
+  },
+  {
+    schoolName: "Korea National Open University",
+    location: "Seoul, Republic of Korea",
+    major: "Bachelor of Science in Computer Science",
+    period: "Feb. 2021 - Aug. 2023",
+  },
+  {
+    schoolName: "Yonsei University",
+    location: "Seoul, Republic of Korea",
+    major: "Bachelor of Science in Engineering",
+    period: "Mar. 2013 - Feb. 2021",
+  },
+  {
+    schoolName: "The University of Texas at Arlington",
+    location: "Arlington, TX",
+    major: "Exchange Program",
+    period: "Aug. 2019 - May 2020",
+  },
+];

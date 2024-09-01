@@ -118,6 +118,8 @@ export default class Certifications extends HTMLElement {
                 display: flex;
                 flex-direction: column;
                 align-items: end;
+                
+                font-size: 18px;
             }
         </style>
     `;

@@ -181,8 +181,9 @@ export default class Projects extends HTMLElement {
 
             .projects-tech-item {
                 padding: 7px 9px;
-
                 border-radius: 14px;
+
+                white-space: nowrap;
 
                 background: ${Maroon};
                 color: ${Peach};

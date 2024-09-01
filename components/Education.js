@@ -42,7 +42,7 @@ export default class Education extends HTMLElement {
                             <span class="school-title">
                                 ${schoolName}
                             </span>
-                            <span class="school-period">
+                            <span class="school-location">
                                 ${location}
                             </span>
                         </div>
@@ -85,8 +85,6 @@ export default class Education extends HTMLElement {
 
                 background-color: ${Peach};
                 color: ${MidnightBlue};
-
-                font-size: 24px;
             }
 
             .education-title {
@@ -114,6 +112,10 @@ export default class Education extends HTMLElement {
             .school-title {
                 font-size: 30px;
                 font-weight: bold;
+            }
+
+            .school-location {
+                font-size: 22px;
             }
             
             .education-major {

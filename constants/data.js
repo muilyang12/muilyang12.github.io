@@ -77,10 +77,7 @@ export const PROJECTS = [
       "Selenium",
       "OpenAI API",
     ],
-    imgSrcs: [
-      "./assets/Projects - Nutrition Specs.png",
-      "./assets/Projects - Nutrition Specs (Architecture).png",
-    ],
+    imgSrcs: ["./assets/Projects - Nutrition Specs (Architecture).png"],
     description: [
       "This project was developed independently by me.",
       "It is a web service for comparing nutritional information across multiple products within the same category. For example, if you search for 'yogurt,' the service will display the nutritional content of various yogurt products.",
@@ -94,7 +91,7 @@ export const PROJECTS = [
     period: "Feb. 2023 – May. 2023",
     link: "https://github.com/muilyang12/Three.js-Study",
     techStack: ["Three.js", "Webpack"],
-    imgSrcs: ["./assets/Projects - Three.js Study.png"],
+    imgSrcs: ["./assets/Projects - Three.js Study.gif"],
     description: [
       "This project is a personal learning endeavor I undertook to study Three.js.",
       "I followed a tutorial by a YouTuber named <my-link linkUrl='https://www.youtube.com/@gisdeveloper'><i>GIS Developer</i></my-link> to create this project.",
@@ -108,7 +105,7 @@ export const PROJECTS = [
     period: "Sep. 2022 – Dec. 2022",
     link: "https://github.com/muilyang12/WebGPU-Study",
     techStack: ["WebGPU", "Webpack"],
-    imgSrcs: ["./assets/Projects - WebGPU Study.png"],
+    imgSrcs: ["./assets/Projects - WebGPU Study.gif"],
     description: [
       "This project is a personal learning endeavor I undertook to study WebGPU.",
       "I followed a tutorial by a YouTuber named <my-link linkUrl='https://www.youtube.com/@GetIntoGameDev'><i>GetIntoGameDev</i></my-link> to create this project.",

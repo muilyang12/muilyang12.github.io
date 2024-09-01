@@ -16,6 +16,7 @@ export default class LeftContents extends HTMLElement {
             <a href="#introduction">Intro</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
             <a href="#certifications">Certifications</a>
             <a href="#education">Education</a>
             <my-link linkUrl="./assets/Resume - Muil Yang (Marked).pdf" iconColor="${Peach}">Resume</my-link>

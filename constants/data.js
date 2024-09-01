@@ -1,9 +1,9 @@
 export const INTRODUCTION_TITLE = "Hi! I’m Muil Yang ✨";
 
 export const INTRODUCTIONS = [
-  "I'm a software engineer proficient in JavaScript/TypeScript, Python, C/C++, Next.js/React.js, Node.js, Django, Flask, and AWS services. Currently, I am pursuing a Master of Science in Computer Science at The University of Texas at Dallas.",
-  "During my time at Midas IT, I worked on applications using Next.js, Node.js, Docker, and various frontend libraries such as Recoil and TanStack Query. These experiences helped me develop the ability to quickly learn new technologies and taught me how to meet deadlines effectively while collaborating with team members from various departments.",
-  "Through hackathons, personal projects, and AWS certification studies, I have focused deeply on the deployment process using Docker and AWS. I've also gained experience working with LLM APIs and models, creating well-structured prompts to achieve optimal results.",
+  "I'm a software engineer skilled in JavaScript/TypeScript, Python, C/C++, Next.js/React.js, Node.js, Django, Flask, and AWS services. I'm currently pursuing a Master’s in Computer Science at The University of Texas at Dallas.",
+  "With 3.5 years of experience as a software engineer, I developed applications using Next.js, Node.js, Docker, and libraries like Recoil and TanStack Query. These roles sharpened my ability to quickly learn new technologies and meet deadlines while collaborating across teams.",
+  "Through hackathons, personal projects, and AWS certification, I’ve deepened my focus on deployment with Docker and AWS. I've also gained experience with LLM APIs and models, crafting effective prompts.",
   "These experiences have allowed me to hone my skills in both frontend and backend development. I am eager to apply this knowledge and continue growing in the field, contributing my expertise to future projects.",
 ];
 

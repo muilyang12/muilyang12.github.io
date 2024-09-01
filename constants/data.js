@@ -127,6 +127,20 @@ export const PROJECTS = [
   },
 ];
 
+export const SKILLS = [
+  { skillName: "Python", logoSrc: "./assets/Skills - Python.png" },
+  { skillName: "JavaScript", logoSrc: "./assets/Skills - JavaScript.png" },
+  { skillName: "C++", logoSrc: "./assets/Skills - C++.png" },
+  { skillName: "Java", logoSrc: "./assets/Skills - Java.png" },
+  { skillName: "Next.js", logoSrc: "./assets/Skills - Next.js.png" },
+  { skillName: "React.js", logoSrc: "./assets/Skills - React.js.png" },
+  { skillName: "Node.js", logoSrc: "./assets/Skills - Node.js.png" },
+  { skillName: "Django", logoSrc: "./assets/Skills - Django.png" },
+  { skillName: "Flask", logoSrc: "./assets/Skills - Flask.png" },
+  { skillName: "AWS", logoSrc: "./assets/Skills - AWS.png" },
+  { skillName: "Docker", logoSrc: "./assets/Skills - Docker.png" },
+];
+
 export const CERTIFICATIONS = [
   {
     name: "AWS Certified Machine Learning - Specialty",

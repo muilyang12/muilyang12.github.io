@@ -38,19 +38,19 @@ export default class Education extends HTMLElement {
 
                   return `
                     <div class="education-item">
-                        <div class="education-position">
-                            <span class="position-title">
+                        <div class="education-school">
+                            <span class="school-title">
                                 ${schoolName}
                             </span>
-                            <span class="position-period">
+                            <span class="school-period">
                                 ${location}
                             </span>
                         </div>
-                        <div class="education-company">
-                            <span class="company-name">
+                        <div class="education-major">
+                            <span class="major-name">
                                 <i>${major}</i>
                             </span>
-                            <span class="company-location">
+                            <span class="major-period">
                                 ${period}
                             </span>
                         </div>
@@ -105,20 +105,22 @@ export default class Education extends HTMLElement {
                 gap: 4px;
             }
             
-            .education-position {
+            .education-school {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
             }
 
-            .position-title {
+            .school-title {
                 font-size: 30px;
                 font-weight: bold;
             }
             
-            .education-company {
+            .education-major {
                 display: flex;
                 justify-content: space-between;
+
+                font-size: 20px;
             }
 
             ul {

@@ -24,7 +24,7 @@ export default class Skills extends HTMLElement {
     const hash = window.location.hash.substring(1);
 
     if (hash === "skills") this.shadowRoot.query;
-    Selector("section").scrollIntoView({ behavior: "smooth" });
+    this.shadowRoot.querySelector("section").scrollIntoView({ behavior: "smooth" });
   }
 
   render() {

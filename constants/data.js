@@ -1,7 +1,11 @@
 export const INTRODUCTION_TITLE = "Hi! I’m Muil Yang ✨";
 
-export const INTRODUCTION =
-  "Hello! I’m currently pursuing my Master’s degree in Computer Science at The University of Texas at Dallas. With over three years of professional experience as a software engineer, I’ve honed my skills in various technologies and developed a strong foundation in both frontend and backend development. I’m passionate about solving complex problems and building innovative applications. I’m now seeking a software engineer internship position where I can contribute my expertise and continue to grow in the field.";
+export const INTRODUCTIONS = [
+  "I'm a software engineer proficient in JavaScript/TypeScript, Python, C/C++, Next.js/React.js, Node.js, Django, Flask, and AWS services. Currently, I am pursuing a Master of Science in Computer Science at The University of Texas at Dallas.",
+  "During my time at Midas IT, I worked on applications using Next.js, Node.js, Docker, and various frontend libraries such as Recoil and TanStack Query. These experiences helped me develop the ability to quickly learn new technologies and taught me how to meet deadlines effectively while collaborating with team members from various departments.",
+  "Through hackathons, personal projects, and AWS certification studies, I have focused deeply on the deployment process using Docker and AWS. I've also gained experience working with LLM APIs and models, creating well-structured prompts to achieve optimal results.",
+  "These experiences have allowed me to hone my skills in both frontend and backend development. I am eager to apply this knowledge and continue growing in the field, contributing my expertise to future projects.",
+];
 
 export const EXPERIENCE = [
   {

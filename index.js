@@ -10,6 +10,7 @@ import Project, { ProjectsComponentName } from "./components/Projects.js";
 import Skills, { SkillsComponentName } from "./components/Skills.js";
 import Certifications, { CertificationsComponentName } from "./components/Certifications.js";
 import Education, { EducationComponentName } from "./components/Education.js";
+import ImagesCredit, { ImagesCreditComponentName } from "./components/ImagesCredit.js";
 
 customElements.define(ExpandComponentName, Expand);
 customElements.define(ModalComponentName, Modal);
@@ -24,3 +25,4 @@ customElements.define(ProjectsComponentName, Project);
 customElements.define(SkillsComponentName, Skills);
 customElements.define(CertificationsComponentName, Certifications);
 customElements.define(EducationComponentName, Education);
+customElements.define(ImagesCreditComponentName, ImagesCredit);

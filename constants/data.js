@@ -73,14 +73,7 @@ export const PROJECTS = [
     type: "Personal Project",
     period: "Jun. 2024 – Jul. 2024",
     link: "https://www.nutrition-specs.com/ice-cream",
-    techStack: [
-      "Next.js",
-      "Django",
-      "SQLite",
-      "Amazon Web Services (AWS)",
-      "Selenium",
-      "OpenAI API",
-    ],
+    techStack: ["Next.js", "Django", "SQLite", "Docker", "Amazon Web Services (AWS)", "OpenAI API"],
     imgSrcs: ["./assets/Projects - Nutrition Specs (Architecture).png"],
     description: [
       "This project was developed independently by me.",

@@ -32,7 +32,7 @@ export default class Introduction extends HTMLElement {
         <section id="introduction" class="introduction-wrapper">
             <div class="introduction">
                 <div class="left">
-                  <img src="./assets/MuilYang_Photo.jpg" width="300" alt="Muil Yang Photo" />
+                  <img src="./assets/MuilYang_Profile_Photo.jpg" alt="Muil Yang Photo" />
                 </div>
                 <div class="right">
                   <p class="introduction-title">${INTRODUCTION_TITLE}</p>
@@ -79,6 +79,10 @@ export default class Introduction extends HTMLElement {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+            }
+
+            .left > img {
+                height: 400px;
             }
 
             .right {

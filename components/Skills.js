@@ -81,6 +81,12 @@ export default class Skills extends HTMLElement {
                 color: ${MidnightBlue};
             }
 
+            @media (min-width: 2000px) {
+              .skils {
+                padding: 120px;
+              }
+            }
+
             .skills-title {
                 font-size: 40px;
                 font-weight: bold;

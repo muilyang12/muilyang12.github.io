@@ -100,6 +100,12 @@ export default class Experience extends HTMLElement {
                 font-size: 24px;
             }
 
+            @media (min-width: 2000px) {
+              .experience {
+                padding: 120px;
+              }
+            }
+
             .experience-title {
                 font-size: 40px;
                 font-weight: bold;

@@ -73,6 +73,12 @@ export default class Introduction extends HTMLElement {
               color: ${MidnightBlue};
             }
 
+            @media (min-width: 2000px) {
+              .introduction {
+                padding: 150px 50px;
+              }
+            }
+
             .left {
                 flex: 1;
 

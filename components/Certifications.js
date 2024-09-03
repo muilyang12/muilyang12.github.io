@@ -87,6 +87,12 @@ export default class Certifications extends HTMLElement {
                 font-size: 24px;
             }
 
+            @media (min-width: 2000px) {
+              .certifications {
+                padding: 80px 120px;
+              }
+            }
+
             .certifications-title {
                 font-size: 40px;
                 font-weight: bold;

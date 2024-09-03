@@ -87,6 +87,12 @@ export default class Education extends HTMLElement {
                 color: ${MidnightBlue};
             }
 
+            @media (min-width: 2000px) {
+              .education {
+                padding: 80px 120px;
+              }
+            }
+
             .education-title {
                 font-size: 40px;
                 font-weight: bold;

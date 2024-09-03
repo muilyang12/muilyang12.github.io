@@ -139,6 +139,12 @@ export default class Projects extends HTMLElement {
                 font-size: 24px;
             }
 
+            @media (min-width: 2000px) {
+              .projects {
+                padding: 120px;
+              }
+            }
+
             .projects-title {
                 font-size: 40px;
                 font-weight: bold;

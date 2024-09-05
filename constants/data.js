@@ -167,7 +167,7 @@ export const EDUCATION = [
   {
     schoolName: "Yonsei University",
     location: "Seoul, Republic of Korea",
-    major: "Bachelor of Science in Engineering",
+    major: "Bachelor of Science in Civil Engineering",
     period: "Mar. 2013 - Feb. 2021",
   },
   {

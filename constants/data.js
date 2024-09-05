@@ -167,13 +167,15 @@ export const EDUCATION = [
   {
     schoolName: "Yonsei University",
     location: "Seoul, Republic of Korea",
-    major: "Bachelor of Science in Civil Engineering",
+    major:
+      'Bachelor of Science in Civil Engineering<br/><span style="font-size: 20px; padding-left: 30px;">- Received a full scholarship for 5 out of 6 semesters.</span>',
     period: "Mar. 2013 - Feb. 2021",
   },
   {
     schoolName: "The University of Texas at Arlington",
     location: "Arlington, TX",
-    major: "Exchange Program",
+    major:
+      'Exchange Program<br/><span style="font-size: 20px; padding-left: 30px;">- Received a full scholarship.</span>',
     period: "Aug. 2019 - May 2020",
   },
 ];

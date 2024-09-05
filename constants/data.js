@@ -18,7 +18,7 @@ export const EXPERIENCE = [
       "Elevated the visual representation of the 3D model viewer by integrating terrain data from ArcGIS with satellite imagery, enabling accurate visualizations of buildings and their immediate surroundings.",
       "Utilized Next.js's Lazy Loading to separate non-essential components from the initial render, reducing the bundle size by approximately 10%.",
       "Introduced Recoil for lightweight state management and efficient handling of class instances, and actively integrated real-time functionality using WebSocket.",
-      "Redesigned the Midas Members, a membership management service, using Next.js, leading approximately 50% of customers to transition to email-based accounts.",
+      "Modernized Midas Members, a membership management service, by migrating from a legacy jQuery and ID-based system to a React-based frontend, leading approximately 50% of customers to transition to email-based accounts.",
       "Optimized the UI development of the company’s Windows desktop application by integrating Microsoft Edge WebView2, allowing seamless use of the web UI from our web services.",
     ],
   },

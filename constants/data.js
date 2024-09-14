@@ -14,7 +14,7 @@ export const EXPERIENCE = [
     companyName: "Midas IT (MIDASoft Inc.)",
     companyLocation: "Seongnam, Republic of Korea",
     description: [
-      "Developed <i>Midas Workspace</i>, a collaboration tool designed for architectural and civil engineers, featuring a 3D model viewer and file drive.",
+      "Developed <i>Midas Workspace</i>, a web-based simulation tool designed for architectural and civil engineers, featuring a 3D model viewer and file drive.",
       "Implemented Inverse View Transformation to map from the Camera Coordinate System to the World Coordinate System, enabling features such as attaching documents to specific elements like columns or slabs in a 3D model.",
       "Elevated the visual representation of the 3D model viewer by integrating terrain data from ArcGIS with satellite imagery, enabling accurate visualizations of buildings and their immediate surroundings.",
       "Utilized Next.js's Lazy Loading to separate non-essential components from the initial render, reducing the bundle size by approximately 10%.",

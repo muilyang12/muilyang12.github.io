@@ -63,7 +63,7 @@ export default class Introduction extends HTMLElement {
 
               width: 77%;
               margin-left: 100px;
-              padding: 30px 50px;
+              padding: 100px 50px;
               border-radius: 20px;
 
               display: flex;

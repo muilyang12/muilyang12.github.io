@@ -1,47 +1,30 @@
 export const INTRODUCTION_TITLE = "Hi! I’m Muil Yang ✨";
 
 export const INTRODUCTIONS = [
-  "I'm a software engineer skilled in JavaScript/TypeScript, Python, C/C++, Next.js/React.js, Node.js, Django, Flask, and AWS services. I'm currently pursuing a Master’s in Computer Science at The University of Texas at Dallas.",
-  "With 3.5 years of experience as a software engineer, I developed applications using Next.js, Node.js, Docker, and libraries like Recoil and TanStack Query. These roles sharpened my ability to quickly learn new technologies and meet deadlines while collaborating across teams.",
-  "Through hackathons, personal projects, and AWS certification, I’ve deepened my focus on deployment with Docker and AWS. I've also gained experience with LLM APIs and models, crafting effective prompts.",
-  "These experiences have allowed me to hone my skills in both frontend and backend development. I am eager to apply this knowledge and continue growing in the field, contributing my expertise to future projects.",
+  "I'm a Master's candidate in Computer Science (expected May 2026) with over 3 years of experience in software engineering, specializing in complex, scalable web applications, system optimization, and cloud technologies.",
 ];
 
 export const EXPERIENCE = [
   {
     title: "Software Engineer",
     period: "Jan. 2021 - May 2024",
-    companyName: "Midas IT (MIDASoft Inc.)",
+    companyName: "Midas Software Inc.",
     companyLocation: "Seongnam, Republic of Korea",
-    description: [
-      "Developed <i>Midas Workspace</i>, a web-based simulation tool designed for architectural and civil engineers, featuring a 3D model viewer and file drive.",
-      "Implemented Inverse View Transformation to map from the Camera Coordinate System to the World Coordinate System, enabling features such as attaching documents to specific elements like columns or slabs in a 3D model.",
-      "Elevated the visual representation of the 3D model viewer by integrating terrain data from ArcGIS with satellite imagery, enabling accurate visualizations of buildings and their immediate surroundings.",
-      "Utilized Next.js's Lazy Loading to separate non-essential components from the initial render, reducing the bundle size by approximately 10%.",
-      "Introduced Recoil for lightweight state management and efficient handling of class instances, and actively integrated real-time functionality using WebSocket.",
-      "Modernized Midas Members, a membership management service, by migrating from a legacy jQuery and ID-based system to a React-based frontend, leading approximately 50% of customers to transition to email-based accounts.",
-      "Optimized the UI development of the company’s Windows desktop application by integrating Microsoft Edge WebView2, allowing seamless use of the web UI from our web services.",
-    ],
+    description: [],
   },
   {
     title: "Research Assistant",
     period: "Sep. 2019 - May 2020",
     companyName: "The University of Texas at Arlington",
     companyLocation: "Arlington, TX",
-    description: [
-      "Designed and developed a flood monitoring system comprised of an embedded system and web service to monitor flood-prone areas.",
-      "Reduced the system's power consumption by 40% by transitioning from Arduino Mega to Atmel microcontrollers, carefully selecting hardware that provided the appropriate level of computing power for our project.",
-      "Engineered and deployed a Node.js HTTP server on AWS for data collection and developed a website to visualize the data through graphs.",
-    ],
+    description: [],
   },
   {
     title: "Private Mathematics Tutor",
     period: "Mar. 2017 - Jun. 2019",
     companyName: "Self-employed",
     companyLocation: "Seoul, Republic of Korea",
-    description: [
-      "Taught Korean SAT prep courses focused on Mathematics, covering Discrete Mathematics, Statistics, Calculus, and Spatial Geometry.",
-    ],
+    description: [],
   },
 ];
 

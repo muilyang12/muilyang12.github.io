@@ -96,7 +96,7 @@ export default class Education extends HTMLElement {
 
             .education-item {
                 width: 100%;
-                padding: 10px;
+                padding: 6px;
 
                 display: flex;
                 flex-direction: column;

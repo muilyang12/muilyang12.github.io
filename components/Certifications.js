@@ -96,7 +96,7 @@ export default class Certifications extends HTMLElement {
 
             .certification-item {
                 width: 100%;
-                padding: 2px 10px;
+                padding: 4px 10px;
 
                 display: flex;
                 justify-content: space-between;

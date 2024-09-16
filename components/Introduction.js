@@ -62,7 +62,7 @@ export default class Introduction extends HTMLElement {
               box-sizing: border-box;
 
               width: 75%;
-              padding: 4%;
+              padding: 6%;
               margin-left: 8%;
               border-radius: 20px;
 
@@ -76,22 +76,16 @@ export default class Introduction extends HTMLElement {
 
             .left {
                 flex: 1;
-
-                display: flex;
-                align-items: center;
-                justify-content: center;
             }
 
             .left > img {
-                height: 400px;
+                width: 100%;
 
                 border-radius: 50%;
             }
 
             .right {
-                flex: 1.5;
-
-                padding: 10px 50px 30px 50px;
+                flex: 2;
 
                 color: ${MidnightBlue};
             }

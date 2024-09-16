@@ -188,8 +188,8 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-tech-item {
-                padding: 7px 9px;
-                border-radius: 14px;
+                padding: 5px 7px;
+                border-radius: 12px;
 
                 white-space: nowrap;
 

@@ -54,13 +54,13 @@ export const PROJECTS = [
     ],
     imgSrcs: ["./assets/Projects - Midas Workspace.png"],
     description: [
-      "Implemented a high-performance 3D model viewer using WebGL enabling real-time manipulation of complex architectural designs, increasing user productivity by 30%",
-      "Designed and integrated a secure, scalable online file-sharing system, supporting multi-format engineering documents up to 10GB",
+      "Implemented a high-performance 3D model viewer using WebGL enabling real-time manipulation of complex architectural designs, increasing user productivity by 30%.",
+      "Designed and integrated a secure, scalable online file-sharing system, supporting multi-format engineering documents up to 10GB.",
       "Implemented Inverse View Transformation feature to map Camera Coordinate System to World Coordinate System, allowing document attachment to elements like columns and slabs in 3D models.",
       "Elevated the visual representation of the 3D model viewer by integrating terrain data from ArcGIS with satellite imagery, enabling accurate visualizations of buildings and their immediate surroundings.",
-      "Integrated recoil.js for streamlined state management and optimized class instance handling, and integrated real-time updates using WebSocket, significantly enhancing application performance by 20%",
-      "Designed a sub-view framework that enables users to seamlessly view related files, such as DWG or IFC, alongside 3D models, improving workflow efficiency and increasing user productivity by 40%",
-      "Utilized Next.js Lazy Loading to optimize initial render by separating non-essential components, reducing bundle size by approximately 10%",
+      "Integrated recoil.js for streamlined state management and optimized class instance handling, and integrated real-time updates using WebSocket, significantly enhancing application performance by 20%.",
+      "Designed a sub-view framework that enables users to seamlessly view related files, such as DWG or IFC, alongside 3D models, improving workflow efficiency and increasing user productivity by 40%.",
+      "Utilized Next.js Lazy Loading to optimize initial render by separating non-essential components, reducing bundle size by approximately 10%.",
     ],
   },
   {
@@ -70,7 +70,7 @@ export const PROJECTS = [
     techStack: ["Next.js", "React.js", "Node.js", "Webpack", "Docker", "Amazon Web Services (AWS)"],
     imgSrcs: ["./assets/Projects - Midas Members.png"],
     description: [
-      "Modernized legacy systems with React-based frontend, significantly improving security and enhancing user experience, which led to 50% of the user base transitioning to a more secure and improved service within a quarter",
+      "Modernized legacy systems with React-based frontend, significantly improving security and enhancing user experience, which led to 50% of the user base transitioning to a more secure and improved service within a quarter.",
       "Developed an SSO system with JWT authentication, streamlining login across platforms and boosting workflow efficiency by 50%, while enhancing security and user experience.",
       "Executed phased rollout, transitioning 50% of customers to email-based accounts in first quarter.",
     ],

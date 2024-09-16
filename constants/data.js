@@ -174,6 +174,15 @@ export const CERTIFICATIONS = [
   },
 ];
 
+export const CLASSES = [
+  {
+    title: "Database Design",
+    semester: "Fall 2024",
+    imgSrcs: ["./assets/Classes - Database Design.png"],
+    description: [],
+  },
+];
+
 export const EDUCATION = [
   {
     schoolName: "The University of Texas at Dallas",

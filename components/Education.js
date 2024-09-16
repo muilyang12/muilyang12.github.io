@@ -74,7 +74,7 @@ export default class Education extends HTMLElement {
             .education {
 	            box-sizing: border-box;
 
-                width: 77%;
+                width: 72%;
                 margin-left: 100px;
                 padding: 80px;
                 border-radius: 20px;
@@ -94,7 +94,7 @@ export default class Education extends HTMLElement {
             }
 
             .education-title {
-                font-size: 40px;
+                font-size: 34px;
                 font-weight: bold;
 
                 margin-bottom: 30px;
@@ -116,19 +116,19 @@ export default class Education extends HTMLElement {
             }
 
             .school-title {
-                font-size: 30px;
+                font-size: 24px;
                 font-weight: bold;
             }
 
             .school-location {
-                font-size: 22px;
+                font-size: 16px;
             }
             
             .education-major {
                 display: flex;
                 justify-content: space-between;
 
-                font-size: 20px;
+                font-size: 16px;
             }
 
             ul {

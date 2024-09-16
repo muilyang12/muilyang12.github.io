@@ -29,7 +29,7 @@ export default class HeaderTitle extends HTMLElement {
               gap: 20px;
               
               color: ${Peach};
-              font-size: 40px;
+              font-size: 34px;
             }
 
             .header-title > a {

@@ -22,7 +22,11 @@ export default class Link extends HTMLElement {
         </a>
 
         <style>
-            
+            a {
+              display: flex;
+              align-items: center;
+              gap: 2px;
+            }
         </style>
       `;
   }

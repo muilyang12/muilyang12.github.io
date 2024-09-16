@@ -124,7 +124,7 @@ export default class Projects extends HTMLElement {
             .projects {
 	            box-sizing: border-box;
 
-                width: 77%;
+                width: 72%;
                 margin-left: 100px;
                 padding: 80px;
                 border-radius: 20px;
@@ -135,8 +135,6 @@ export default class Projects extends HTMLElement {
 
                 background-color: ${Peach};
                 color: ${MidnightBlue};
-
-                font-size: 24px;
             }
 
             @media (min-width: 2000px) {
@@ -146,7 +144,7 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-title {
-                font-size: 40px;
+                font-size: 34px;
                 font-weight: bold;
 
                 margin-bottom: 30px;
@@ -174,8 +172,12 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-info-title {
-                font-size: 30px;
+                font-size: 24px;
                 font-weight: bold;
+            }
+
+            .projects-info-period {
+                font-size: 16px;
             }
 
             .projects-tech-stack {
@@ -193,6 +195,8 @@ export default class Projects extends HTMLElement {
 
                 background: ${Maroon};
                 color: ${Peach};
+
+                font-size: 16px;
             }
 
             .project-detail {
@@ -214,13 +218,15 @@ export default class Projects extends HTMLElement {
                 justify-content: center;
             }
 
-            ul {
+            .projects-description {
                 width: 100%;
                 margin: 1px 0;
 
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
+
+                font-size: 18px;
             }
         </style>
     `;

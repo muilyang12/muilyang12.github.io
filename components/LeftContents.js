@@ -38,7 +38,7 @@ export default class LeftContents extends HTMLElement {
               border: 1px solid ${HotPink};
               border-radius: 10px;
               color: ${Peach};
-              font-size: 24px;
+              font-size: 18px;
             }
 
             nav > a {

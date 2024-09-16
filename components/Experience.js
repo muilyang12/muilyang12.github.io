@@ -85,7 +85,7 @@ export default class Experience extends HTMLElement {
             .experience {
 	            box-sizing: border-box;
 
-                width: 77%;
+                width: 72%;
                 margin-left: 100px;
                 padding: 80px;
                 border-radius: 20px;
@@ -97,7 +97,7 @@ export default class Experience extends HTMLElement {
                 background-color: ${Peach};
                 color: ${MidnightBlue};
 
-                font-size: 24px;
+                font-size: 18px;
             }
 
             @media (min-width: 2000px) {
@@ -107,7 +107,7 @@ export default class Experience extends HTMLElement {
             }
 
             .experience-title {
-                font-size: 40px;
+                font-size: 34px;
                 font-weight: bold;
 
                 margin-bottom: 30px;
@@ -129,7 +129,7 @@ export default class Experience extends HTMLElement {
             }
 
             .position-title {
-                font-size: 30px;
+                font-size: 24px;
                 font-weight: bold;
             }
             

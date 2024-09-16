@@ -57,7 +57,7 @@ export default class ImagesCredit extends HTMLElement {
             .images-credit-title {
 	              box-sizing: border-box;
 
-                font-size: 30px;
+                font-size: 22px;
                 font-weight: bold;
             }
 
@@ -68,7 +68,7 @@ export default class ImagesCredit extends HTMLElement {
                 flex-direction: column;
                 gap: 4px;
 
-                font-size: 20px;
+                font-size: 16px;
             }
         </style>
     `;

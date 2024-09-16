@@ -61,7 +61,7 @@ export default class Introduction extends HTMLElement {
             .introduction {
 	            box-sizing: border-box;
 
-              width: 77%;
+              width: 72%;
               margin-left: 100px;
               padding: 100px 50px;
               border-radius: 20px;
@@ -89,6 +89,8 @@ export default class Introduction extends HTMLElement {
 
             .left > img {
                 height: 400px;
+
+                border-radius: 50%;
             }
 
             .right {
@@ -100,7 +102,7 @@ export default class Introduction extends HTMLElement {
             }
 
             .introduction-title {
-                font-size: 40px;
+                font-size: 34px;
                 font-weight: bold;
             }
 
@@ -109,7 +111,7 @@ export default class Introduction extends HTMLElement {
                 flex-direction: column;
                 gap: 30px;
 
-                font-size: 24px;
+                font-size: 18px;
             }
         </style>
     `;

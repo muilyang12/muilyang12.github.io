@@ -40,7 +40,7 @@ export default class Skills extends HTMLElement {
                     return `
                       <div class="skills-item">
                         <div class="skill-image-box">
-                          <img src="${logoSrc}" width="80" height="80" alt="" />
+                          <img src="${logoSrc}" width="70" height="70" alt="" />
                         </div>
                         <div>
                             <span class="skill-title">
@@ -68,7 +68,7 @@ export default class Skills extends HTMLElement {
             .skils {
 	            box-sizing: border-box;
 
-                width: 77%;
+                width: 72%;
                 margin-left: 100px;
                 padding: 80px;
                 border-radius: 20px;
@@ -88,7 +88,7 @@ export default class Skills extends HTMLElement {
             }
 
             .skills-title {
-                font-size: 40px;
+                font-size: 34px;
                 font-weight: bold;
 
                 margin-bottom: 30px;
@@ -105,8 +105,8 @@ export default class Skills extends HTMLElement {
             }
 
             .skills-item {
-                width: 170px;
-                height: 170px;
+                width: 160px;
+                height: 160px;
                 border-radius: 30px;
 
                 display: flex;
@@ -119,8 +119,8 @@ export default class Skills extends HTMLElement {
             }
 
             .skill-image-box {
-                width: 80px;
-                height: 80px;
+                width: 70px;
+                height: 70px;
 
                 display: flex;
                 justify-content: center;
@@ -132,7 +132,7 @@ export default class Skills extends HTMLElement {
             }
 
             .skill-title {
-                font-size: 22px;
+                font-size: 18px;
                 font-weight: bold;
             }
         </style>

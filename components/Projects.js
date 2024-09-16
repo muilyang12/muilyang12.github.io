@@ -124,10 +124,10 @@ export default class Projects extends HTMLElement {
             .projects {
 	            box-sizing: border-box;
 
-                width: 72%;
-                margin-left: 100px;
-                padding: 80px;
-                border-radius: 20px;
+              width: 75%;
+              margin-left: 8%;
+              padding: 4%;
+              border-radius: 20px;
 
                 display: flex;
                 flex-direction: column;
@@ -135,12 +135,6 @@ export default class Projects extends HTMLElement {
 
                 background-color: ${Peach};
                 color: ${MidnightBlue};
-            }
-
-            @media (min-width: 2000px) {
-              .projects {
-                padding: 120px;
-              }
             }
 
             .projects-title {

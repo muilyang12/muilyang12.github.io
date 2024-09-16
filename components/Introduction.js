@@ -59,24 +59,19 @@ export default class Introduction extends HTMLElement {
             }
 
             .introduction {
-	            box-sizing: border-box;
+              box-sizing: border-box;
 
-              width: 72%;
-              margin-left: 100px;
-              padding: 100px 50px;
+              width: 75%;
+              padding: 4%;
+              margin-left: 8%;
               border-radius: 20px;
 
               display: flex;
               align-items: center;
+              gap: 50px;
 
               background-color: ${Peach};
               color: ${MidnightBlue};
-            }
-
-            @media (min-width: 2000px) {
-              .introduction {
-                padding: 150px 50px;
-              }
             }
 
             .left {

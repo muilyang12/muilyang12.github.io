@@ -188,15 +188,19 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-tech-item {
-                padding: 5px 7px;
-                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                padding: 4px 6px;
+                border-radius: 10px;
 
                 white-space: nowrap;
 
                 background: ${Maroon};
                 color: ${Peach};
 
-                font-size: 16px;
+                font-size: 14px;
             }
 
             .project-detail {

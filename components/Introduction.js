@@ -9,6 +9,16 @@ export default class Introduction extends HTMLElement {
     this.attachShadow({ mode: "open" });
 
     this.render();
+
+    const worker = new Worker("./worker.js");
+
+    worker.onmessage = (event) => {
+      console.log(event.data);
+      console.log("Received Message.");
+    };
+
+    worker.postMessage(3);
+    console.log("Sent Message.");
   }
 
   connectedCallback() {

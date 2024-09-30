@@ -176,6 +176,17 @@ export const CERTIFICATIONS = [
 
 export const CLASSES = [
   {
+    title: "Machine Learning",
+    link: "https://github.com/muilyang12/Classes/tree/master/Machine%20Learning",
+    semester: "Fall 2024",
+    imgSrcs: [
+      "./assets/Classes - ML (LR with MSE).gif",
+      "./assets/Classes - ML (Perceptron).gif",
+      "./assets/Classes - ML (SVM).gif",
+    ],
+    description: [],
+  },
+  {
     title: "Database Design",
     semester: "Fall 2024",
     imgSrcs: ["./assets/Classes - Database Design.png"],

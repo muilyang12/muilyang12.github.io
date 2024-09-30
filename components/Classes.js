@@ -34,7 +34,13 @@ export default class Classes extends HTMLElement {
                 <div class="classes-title">Classes</div>
 
                 ${CLASSES.map((exp) => {
-                  const { title, semester, imgSrcs, description } = exp;
+                  const { title, link, semester, imgSrcs } = exp;
+
+                  let linkHTML = "";
+                  if (typeof link === "string")
+                    linkHTML = `
+                        <my-link linkUrl=${link}>Link</my-link>
+                    `;
 
                   return `
                     <div class="classes-item">
@@ -43,6 +49,8 @@ export default class Classes extends HTMLElement {
                                 <span class="classes-info-title">
                                     ${title}
                                 </span>
+
+                                ${linkHTML}
                             </div>
                             <span class="classes-info-semester">
                                 ${semester}

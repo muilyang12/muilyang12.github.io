@@ -1,4 +1,4 @@
-import { MidnightBlue, Peach } from "../constants/color.js";
+import { Background, Bright } from "../constants/color.js";
 import { INTRODUCTIONS, INTRODUCTION_TITLE } from "../constants/data.js";
 
 export default class Introduction extends HTMLElement {
@@ -93,8 +93,8 @@ export default class Introduction extends HTMLElement {
               align-items: center;
               gap: 50px;
 
-              background-color: ${Peach};
-              color: ${MidnightBlue};
+              background-color: ${Bright};
+              color: ${Background};
             }
 
             .left {
@@ -110,7 +110,7 @@ export default class Introduction extends HTMLElement {
             .right {
                 flex: 2;
 
-                color: ${MidnightBlue};
+                color: ${Background};
             }
 
             .introduction-title {

@@ -1,4 +1,4 @@
-import { MidnightBlue, Peach } from "../constants/color.js";
+import { Background, Bright } from "../constants/color.js";
 import { CERTIFICATIONS } from "../constants/data.js";
 
 export default class Certifications extends HTMLElement {
@@ -42,7 +42,7 @@ export default class Certifications extends HTMLElement {
                             <span class="certification-name">
                                 ${name}
                             </span>
-                            <my-link linkUrl="${fileName}">Open</my-link>
+                            <my-link linkUrl="${fileName}" iconColor="${Background}">Open</my-link>
                         </div>
                         <div class="certification-dates">
                             <span>
@@ -81,8 +81,8 @@ export default class Certifications extends HTMLElement {
                 flex-direction: column;
                 align-items: center;
 
-                background-color: ${Peach};
-                color: ${MidnightBlue};
+                background-color: ${Bright};
+                color: ${Background};
 
                 font-size: 18px;
             }

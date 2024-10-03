@@ -1,5 +1,4 @@
-import { Maroon, MidnightBlue, Peach } from "../constants/color.js";
-import { EDUCATION } from "../constants/data.js";
+import { Bright } from "../constants/color.js";
 
 export default class ImagesCredit extends HTMLElement {
   constructor() {
@@ -40,12 +39,12 @@ export default class ImagesCredit extends HTMLElement {
                 justify-content: center;
                 gap: 10px;
 
-                color: ${Peach};
+                color: ${Bright};
             }
 
             .images-credit {
                 padding: 30px 20px 20px 20px;
-                border: 1px solid ${Peach};
+                border: 1px solid ${Bright};
                 border-radius: 10px;
 
                 display: flex;

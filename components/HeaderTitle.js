@@ -1,4 +1,4 @@
-import { Peach } from "../constants/color.js";
+import { Bright } from "../constants/color.js";
 
 export default class HeaderTitle extends HTMLElement {
   constructor() {
@@ -28,7 +28,7 @@ export default class HeaderTitle extends HTMLElement {
               flex-direction: column;
               gap: 20px;
               
-              color: ${Peach};
+              color: ${Bright};
               font-size: 34px;
             }
 

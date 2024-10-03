@@ -1,4 +1,4 @@
-import { Maroon, MidnightBlue, Peach } from "../constants/color.js";
+import { Background, Bright } from "../constants/color.js";
 import { PROJECTS } from "../constants/data.js";
 
 export default class Projects extends HTMLElement {
@@ -39,7 +39,7 @@ export default class Projects extends HTMLElement {
                   let linkHTML = "";
                   if (typeof link === "string")
                     linkHTML = `
-                        <my-link linkUrl=${link}>Link</my-link>
+                        <my-link linkUrl=${link} iconColor="${Background}">Link</my-link>
                     `;
                   else if (typeof link === "object") {
                     linkHTML = `
@@ -152,8 +152,8 @@ export default class Projects extends HTMLElement {
                 flex-direction: column;
                 align-items: center;
 
-                background-color: ${Peach};
-                color: ${MidnightBlue};
+                background-color: ${Bright};
+                color: ${Background};
             }
 
             .projects-title {
@@ -210,8 +210,8 @@ export default class Projects extends HTMLElement {
 
                 white-space: nowrap;
 
-                background: ${Maroon};
-                color: ${Peach};
+                background: ${Background};
+                color: ${Bright};
 
                 font-size: 14px;
             }
@@ -219,7 +219,7 @@ export default class Projects extends HTMLElement {
             .project-detail {
                 margin-top: 12px;
                 padding: 40px 40px;
-                border: 2px solid ${Maroon};
+                border: 2px solid ${Background};
                 border-radius: 16px;
 
                 display: flex;
@@ -237,7 +237,7 @@ export default class Projects extends HTMLElement {
             }
 
             .project-detail-sub-title {
-              color: ${Maroon};
+              color: ${Background};
 
               font-size: 20px;
               font-size: 20px;

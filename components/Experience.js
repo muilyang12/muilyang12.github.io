@@ -1,4 +1,4 @@
-import { MidnightBlue, Peach } from "../constants/color.js";
+import { Background, Bright } from "../constants/color.js";
 import { EXPERIENCE } from "../constants/data.js";
 
 export default class Experience extends HTMLElement {
@@ -94,8 +94,8 @@ export default class Experience extends HTMLElement {
                 flex-direction: column;
                 align-items: center;
 
-                background-color: ${Peach};
-                color: ${MidnightBlue};
+                background-color: ${Bright};
+                color: ${Background};
 
                 font-size: 18px;
             }

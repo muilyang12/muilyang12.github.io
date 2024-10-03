@@ -1,4 +1,4 @@
-import { Maroon, MidnightBlue, Peach, WHITE } from "../constants/color.js";
+import { Background, Bright, WHITE } from "../constants/color.js";
 import { SKILLS } from "../constants/data.js";
 
 export default class Skills extends HTMLElement {
@@ -77,8 +77,8 @@ export default class Skills extends HTMLElement {
                 flex-direction: column;
                 align-items: center;
 
-                background-color: ${Peach};
-                color: ${MidnightBlue};
+                background-color: ${Bright};
+                color: ${Background};
             }
 
             .skills-title {

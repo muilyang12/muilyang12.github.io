@@ -1,4 +1,4 @@
-import { Maroon, MidnightBlue, Peach } from "../constants/color.js";
+import { Background, Bright } from "../constants/color.js";
 import { CLASSES } from "../constants/data.js";
 
 export default class Classes extends HTMLElement {
@@ -39,7 +39,7 @@ export default class Classes extends HTMLElement {
                   let linkHTML = "";
                   if (typeof link === "string")
                     linkHTML = `
-                        <my-link linkUrl=${link}>Link</my-link>
+                        <my-link linkUrl=${link} iconColor="${Background}">Link</my-link>
                     `;
 
                   return `
@@ -106,8 +106,8 @@ export default class Classes extends HTMLElement {
                 flex-direction: column;
                 align-items: center;
 
-                background-color: ${Peach};
-                color: ${MidnightBlue};
+                background-color: ${Bright};
+                color: ${Background};
             }
 
             .classes-title {
@@ -150,7 +150,7 @@ export default class Classes extends HTMLElement {
             .class-detail {
                 margin-top: 12px;
                 padding: 60px 40px;
-                border: 2px solid ${Maroon};
+                border: 2px solid ${Background};
                 border-radius: 16px;
 
                 display: flex;

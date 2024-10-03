@@ -1,4 +1,4 @@
-import { Peach } from "../constants/color.js";
+import { Bright } from "../constants/color.js";
 
 export default class LeftContents extends HTMLElement {
   constructor() {
@@ -20,8 +20,8 @@ export default class LeftContents extends HTMLElement {
             <a href="#certifications">Certifications</a>
             <a href="#classes">Classes</a>
             <a href="#education">Education</a>
-            <my-link linkUrl="./assets/Resume - Muil Yang (Marked).pdf" iconColor="${Peach}">Resume</my-link>
-            <my-link linkUrl="https://www.linkedin.com/in/muil-yang-662608201/" iconColor="${Peach}">LinkedIn</my-link>
+            <my-link linkUrl="./assets/Resume - Muil Yang (Marked).pdf" iconColor="${Bright}">Resume</my-link>
+            <my-link linkUrl="https://www.linkedin.com/in/muil-yang-662608201/" iconColor="${Bright}">LinkedIn</my-link>
         </nav>
 
         <style>
@@ -36,9 +36,9 @@ export default class LeftContents extends HTMLElement {
               flex-direction: column;
               gap: 20px;
               
-              border: 1px solid ${Peach};
+              border: 1px solid ${Bright};
               border-radius: 10px;
-              color: ${Peach};
+              color: ${Bright};
               font-size: 18px;
             }
 

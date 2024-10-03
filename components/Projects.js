@@ -267,7 +267,6 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-description > ul {
-              width: 100%;
               margin: 1px 0;
 
               display: flex;

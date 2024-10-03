@@ -1,7 +1,8 @@
 export const INTRODUCTION_TITLE = "Hi! I’m Muil Yang ✨";
 
 export const INTRODUCTIONS = [
-  "I'm a Master's candidate in Computer Science (expected May 2026) with over 3 years of experience in software engineering, specializing in complex, scalable web applications, system optimization, and cloud technologies.",
+  "I am a Master's candidate in Computer Science (expected May 2026) with over 3 years of experience in software engineering, specializing in complex, scalable web applications, system optimization, and cloud technologies.",
+  "I am proficient in JavaScript/TypeScript, Python, Java, Next.js/React.js, Node.js, Django, Docker/Kubernetes and AWS services.",
 ];
 
 export const EXPERIENCE = [

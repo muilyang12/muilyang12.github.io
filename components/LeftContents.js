@@ -1,4 +1,4 @@
-import { HotPink, Peach } from "../constants/color.js";
+import { Peach } from "../constants/color.js";
 
 export default class LeftContents extends HTMLElement {
   constructor() {
@@ -36,7 +36,7 @@ export default class LeftContents extends HTMLElement {
               flex-direction: column;
               gap: 20px;
               
-              border: 1px solid ${HotPink};
+              border: 1px solid ${Peach};
               border-radius: 10px;
               color: ${Peach};
               font-size: 18px;

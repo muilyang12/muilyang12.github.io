@@ -1,4 +1,4 @@
-import { HotPink, Peach, MidnightBlue } from "../constants/color.js";
+import { Peach } from "../constants/color.js";
 
 export default class HeaderTitle extends HTMLElement {
   constructor() {

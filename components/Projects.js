@@ -77,7 +77,7 @@ export default class Projects extends HTMLElement {
                                 ${
                                   explanation
                                     ? `<div class="project-explanation">
-                                      <div class="project-explanation-title">Description</div>
+                                      <div class="project-explanation-title">Project Description</div>
                                       <div>${explanation}</div>
                                     </div>`
                                     : ""

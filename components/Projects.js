@@ -34,7 +34,7 @@ export default class Projects extends HTMLElement {
                 <div class="projects-title">Projects</div>
 
                 ${PROJECTS.map((exp) => {
-                  const { title, link, period, techStack, imgSrcs, description } = exp;
+                  const { title, link, period, techStack, explanation, imgSrcs, description } = exp;
 
                   let linkHTML = "";
                   if (typeof link === "string")
@@ -74,6 +74,16 @@ export default class Projects extends HTMLElement {
 
                         <my-expand summary="Show details">
                             <div class="project-detail">
+                                ${
+                                  explanation
+                                    ? `<div class="project-explanation">
+                                      <div class="project-explanation-title">Description</div>
+                                      <div>${explanation}</div>
+                                    </div>`
+                                    : ""
+                                }
+                                    
+
                                 ${
                                   imgSrcs && imgSrcs.length > 0
                                     ? `
@@ -199,7 +209,7 @@ export default class Projects extends HTMLElement {
 
             .project-detail {
                 margin-top: 12px;
-                padding: 60px 40px;
+                padding: 40px 40px;
                 border: 2px solid ${Maroon};
                 border-radius: 16px;
 
@@ -207,6 +217,22 @@ export default class Projects extends HTMLElement {
                 flex-direction: column;
                 align-items: center;
                 gap: 60px;
+            }
+
+            .project-explanation {
+              width: 100%;
+
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+            }
+
+            .project-explanation-title {
+              color: ${Maroon};
+
+              font-size: 20px;
+              font-size: 20px;
+              font-weight: 1000;
             }
 
             .project-images {

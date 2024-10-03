@@ -107,9 +107,9 @@ export default class Projects extends HTMLElement {
                                     : ""
                                 }
 
-                                <div>
+                                <div class="projects-description">
                                   <div class="project-detail-sub-title">Role</div>
-                                  <ul class="projects-description">
+                                  <ul>
                                       ${description
                                         .map((des) => {
                                           return `
@@ -259,14 +259,22 @@ export default class Projects extends HTMLElement {
             }
 
             .projects-description {
-                width: 100%;
-                margin: 1px 0;
+              width: 100%;
 
-                display: flex;
-                flex-direction: column;
-                gap: 5px;
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+            }
 
-                font-size: 18px;
+            .projects-description > ul {
+              width: 100%;
+              margin: 1px 0;
+
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+
+              font-size: 18px;
             }
         </style>
     `;

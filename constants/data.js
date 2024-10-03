@@ -160,6 +160,7 @@ export const SKILLS = [
   { skillName: "Flask", logoSrc: "./assets/Skills - Flask.png" },
   { skillName: "AWS", logoSrc: "./assets/Skills - AWS.png" },
   { skillName: "Docker", logoSrc: "./assets/Skills - Docker.png" },
+  { skillName: "Kubernetes", logoSrc: "./assets/Skills - Kubernetes.png" },
 ];
 
 export const CERTIFICATIONS = [

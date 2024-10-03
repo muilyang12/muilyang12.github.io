@@ -42,8 +42,6 @@ export const PROJECTS = [
   {
     title: "Midas Workspace - Midas Software Inc.",
     type: "Company Project",
-    explanation:
-      "Collaborative web app for architectural and civil engineers. Enables device agnostic sharing and viewing of 3D structural analysis models, with features like model annotations, file sharing, and sub-views for detailed inspections.",
     period: "",
     techStack: [
       "Next.js",
@@ -55,6 +53,9 @@ export const PROJECTS = [
       "Docker",
       "Amazon Web Services (AWS)",
     ],
+    explanation:
+      "Collaborative web app for architectural and civil engineers. Enables device agnostic sharing and viewing of 3D structural analysis models, with features like model annotations, file sharing, and sub-views for detailed inspections.",
+
     imgSrcs: ["./assets/Projects - Midas Workspace.png"],
     description: [
       "Implemented a high-performance 3D model viewer using WebGL enabling real-time manipulation of complex architectural designs, increasing user productivity by 30%.",
@@ -69,10 +70,10 @@ export const PROJECTS = [
   {
     title: "Midas Members - Midas Software Inc.",
     type: "Company Project",
-    explanation:
-      "Membership management system designed to streamline user account creation, authentication, and engagement.",
     period: "",
     techStack: ["Next.js", "React.js", "Node.js", "Webpack", "Docker", "Amazon Web Services (AWS)"],
+    explanation:
+      "Membership management system designed to streamline user account creation, authentication, and engagement.",
     imgSrcs: ["./assets/Projects - Midas Members.png"],
     description: [
       "Modernized legacy systems with React-based frontend, significantly improving security and enhancing user experience, which led to 50% of the user base transitioning to a more secure and improved service within a quarter.",
@@ -83,10 +84,10 @@ export const PROJECTS = [
   {
     title: "Nutrition Specs - Personal",
     type: "Personal Project",
-    explanation:
-      "Web service for comparing nutritional information across multiple products within the same category.",
     period: "Jun. 2024 – Jul. 2024",
     techStack: ["Next.js", "Django", "SQLite", "Docker", "Amazon Web Services (AWS)", "OpenAI API"],
+    explanation:
+      "Web service for comparing nutritional information across multiple products within the same category.",
     imgSrcs: ["./assets/Projects - Nutrition Specs (Architecture).png"],
     description: [
       "Built a web service to compare nutritional information across multiple products within the same category. For instance, searching for 'yogurt' will display the nutritional content of various yogurt products.",
@@ -99,9 +100,9 @@ export const PROJECTS = [
   {
     title: "AI Veggie Cat - Hackathon",
     type: "Hackathon Project",
-    explanation: "AI-driven food ingredient ordering system leveraging advanced LLM API services.",
     period: "Jul. 2024",
     techStack: ["Next.js", "Recoil", "Flask", "MySQL", "Naver Cloud", "Prompt Engineering"],
+    explanation: "AI-driven food ingredient ordering system leveraging advanced LLM API services.",
     description: [
       "Developed an AI-powered service to automatically order food ingredients by using OCR to read menus from uploaded images, extracting a list of necessary ingredients, and then automating the ordering process.",
       "Developed a scalable, user-friendly interface using Next.js for the frontend, ensuring responsive design and optimal user experience",

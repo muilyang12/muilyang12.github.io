@@ -77,41 +77,50 @@ export default class Projects extends HTMLElement {
                                 ${
                                   explanation
                                     ? `<div class="project-explanation">
-                                      <div class="project-explanation-title">Project Description</div>
-                                      <div>${explanation}</div>
-                                    </div>`
-                                    : ""
-                                }
-                                    
-
-                                ${
-                                  imgSrcs && imgSrcs.length > 0
-                                    ? `
-                                      <div class="project-images">
-                                        ${imgSrcs
-                                          .map(
-                                            (imgSrc, index) => `
-                                              <img src="${imgSrc}" width="800" alt="Image ${
-                                              index + 1
-                                            } for project ${title}" />
-                                            `
-                                          )
-                                          .join("")}
+                                        <div class="project-detail-sub-title">Project Description</div>
+                                        <div>${explanation}</div>
                                       </div>`
                                     : ""
                                 }
+                     
+                                ${
+                                  imgSrcs && Object.keys(imgSrcs).length > 0
+                                    ? Object.entries(imgSrcs).map(
+                                        ([title, imgs]) =>
+                                          `
+                                          <div class="project-images">
+                                            <div class="project-detail-sub-title">${title}</div>
+                                            <div class="image-wrapper">
+                                              ${imgs
+                                                .map(
+                                                  (imgSrc, index) => `
+                                                    <img src="${imgSrc}" width="800" alt="Image ${
+                                                    index + 1
+                                                  } for project ${title}" />
+                                                  `
+                                                )
+                                                .join("")}
+                                            </div>
+                                          </div>
+                                          `
+                                      )
+                                    : ""
+                                }
 
-                                <ul class="projects-description">
-                                    ${description
-                                      .map((des) => {
-                                        return `
-                                        <li>
-                                            ${des}
-                                        </li>
-                                        `;
-                                      })
-                                      .join("")}
-                                </ul>
+                                <div>
+                                  <div class="project-detail-sub-title">Role</div>
+                                  <ul class="projects-description">
+                                      ${description
+                                        .map((des) => {
+                                          return `
+                                          <li>
+                                              ${des}
+                                          </li>
+                                          `;
+                                        })
+                                        .join("")}
+                                  </ul>
+                                </div>
                             </div>
                         </my-expand>
                     </div>
@@ -216,7 +225,7 @@ export default class Projects extends HTMLElement {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 60px;
+                gap: 40px;
             }
 
             .project-explanation {
@@ -227,7 +236,7 @@ export default class Projects extends HTMLElement {
               gap: 4px;
             }
 
-            .project-explanation-title {
+            .project-detail-sub-title {
               color: ${Maroon};
 
               font-size: 20px;
@@ -236,10 +245,17 @@ export default class Projects extends HTMLElement {
             }
 
             .project-images {
-                display: flex;
-                flex-direction: column;
-                gap: 30px;
-                justify-content: center;
+              width: 100%;
+
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+            }
+
+            .project-images > .image-wrapper {
+              display: flex;
+              flex-direction: column;
+              align-items: center
             }
 
             .projects-description {

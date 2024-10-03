@@ -56,7 +56,7 @@ export const PROJECTS = [
     explanation:
       "Collaborative web app for architectural and civil engineers. Enables device agnostic sharing and viewing of 3D structural analysis models, with features like model annotations, file sharing, and sub-views for detailed inspections.",
 
-    imgSrcs: ["./assets/Projects - Midas Workspace.png"],
+    imgSrcs: { Architecture: ["./assets/Projects - Midas Workspace.png"] },
     description: [
       "Implemented a high-performance 3D model viewer using WebGL enabling real-time manipulation of complex architectural designs, increasing user productivity by 30%.",
       "Designed and integrated a secure, scalable online file-sharing system, supporting multi-format engineering documents up to 10GB.",
@@ -74,7 +74,7 @@ export const PROJECTS = [
     techStack: ["Next.js", "React.js", "Node.js", "Webpack", "Docker", "Amazon Web Services (AWS)"],
     explanation:
       "Membership management system designed to streamline user account creation, authentication, and engagement.",
-    imgSrcs: ["./assets/Projects - Midas Members.png"],
+    imgSrcs: { Architecture: ["./assets/Projects - Midas Members.png"] },
     description: [
       "Modernized legacy systems with React-based frontend, significantly improving security and enhancing user experience, which led to 50% of the user base transitioning to a more secure and improved service within a quarter.",
       "Developed an SSO system with JWT authentication, streamlining login across platforms and boosting workflow efficiency by 50%, while enhancing security and user experience.",
@@ -88,7 +88,7 @@ export const PROJECTS = [
     techStack: ["Next.js", "Django", "SQLite", "Docker", "Amazon Web Services (AWS)", "OpenAI API"],
     explanation:
       "Web service for comparing nutritional information across multiple products within the same category.",
-    imgSrcs: ["./assets/Projects - Nutrition Specs (Architecture).png"],
+    imgSrcs: { Architecture: ["./assets/Projects - Nutrition Specs (Architecture).png"] },
     description: [
       "Built a web service to compare nutritional information across multiple products within the same category. For instance, searching for 'yogurt' will display the nutritional content of various yogurt products.",
       "Created a dynamic, user-friendly frontend with Next.js and Zustand.",
@@ -117,7 +117,7 @@ export const PROJECTS = [
     period: "Feb. 2023 – May. 2023",
     link: "https://github.com/muilyang12/Three.js-Study",
     techStack: ["Three.js", "Webpack"],
-    imgSrcs: ["./assets/Projects - Three.js Study.gif"],
+    imgSrcs: { Preview: ["./assets/Projects - Three.js Study.gif"] },
     description: [
       "Initiated this personal project to deepen my understanding of 3D graphics and web development using Three.js",
       "Developed the project using Three.js, Webpack, and basic HTML/CSS/JavaScript, focusing on creating interactive 3D visualizations.",
@@ -130,7 +130,7 @@ export const PROJECTS = [
     period: "Sep. 2022 – Dec. 2022",
     link: "https://github.com/muilyang12/WebGPU-Study",
     techStack: ["WebGPU", "Webpack"],
-    imgSrcs: ["./assets/Projects - WebGPU Study.gif"],
+    imgSrcs: { Preview: ["./assets/Projects - WebGPU Study.gif"] },
     description: [
       "Initiated this personal project to deepen my understanding of 3D graphics and web development using WebGPU",
       "Developed the project using WebGPU, Webpack, and basic HTML/CSS/JavaScript, focusing on creating interactive 3D visualizations.",

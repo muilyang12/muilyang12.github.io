@@ -197,6 +197,12 @@ export const CLASSES = [
     description: [],
   },
   {
+    title: "Design and Analysis of Computer Algorithms",
+    semester: "Fall 2024",
+    imgSrcs: ["./assets/Classes - Algorithm.png"],
+    description: [],
+  },
+  {
     title: "Database Design",
     link: "https://github.com/muilyang12/Classes/tree/master/Database%20Design",
     semester: "Fall 2024",

@@ -10,7 +10,7 @@ export const EXPERIENCE = [
     title: "Software Engineer",
     period: "Jan. 2021 - May 2024",
     companyName: "Midas Software Inc.",
-    companyLocation: "Seongnam, Republic of Korea",
+    companyLocation: "Republic of Korea",
     description: [],
   },
   {
@@ -24,7 +24,7 @@ export const EXPERIENCE = [
     title: "Private Mathematics Tutor",
     period: "Mar. 2017 - Jun. 2019",
     companyName: "Self-employed",
-    companyLocation: "Seoul, Republic of Korea",
+    companyLocation: "Republic of Korea",
     description: [],
   },
 ];
@@ -33,7 +33,6 @@ export const PROJECTS = [
   {
     title: "Personal Website",
     type: "Personal Project",
-    period: "",
     techStack: ["Vanilla JS", "Web Components API", "HTML/CSS"],
     imgSrcs: { Architecture: ["./assets/Projects - Personal Website.png"] },
     description: [
@@ -43,7 +42,7 @@ export const PROJECTS = [
   {
     title: "Midas Workspace - Midas Software Inc.",
     type: "Company Project",
-    period: "",
+    period: "Jul. 2022 – May 2024",
     techStack: [
       "Next.js",
       "React.js",
@@ -57,7 +56,7 @@ export const PROJECTS = [
     explanation:
       "Collaborative web app for architectural and civil engineers. Enables device agnostic sharing and viewing of 3D structural analysis models, with features like model annotations, file sharing, and sub-views for detailed inspections.",
 
-    imgSrcs: { Architecture: ["./assets/Projects - Midas Workspace.png"] },
+    imgSrcs: { Preview: ["./assets/Projects - Midas Workspace.png"] },
     description: [
       "Implemented a high-performance 3D model viewer using WebGL enabling real-time manipulation of complex architectural designs, increasing user productivity by 30%.",
       "Designed and integrated a secure, scalable online file-sharing system, supporting multi-format engineering documents up to 10GB.",
@@ -71,7 +70,7 @@ export const PROJECTS = [
   {
     title: "Midas Members - Midas Software Inc.",
     type: "Company Project",
-    period: "",
+    period: "Dec. 2022 – Sep. 2023",
     techStack: ["Next.js", "React.js", "Node.js", "Webpack", "Docker", "Amazon Web Services (AWS)"],
     explanation:
       "Membership management system designed to streamline user account creation, authentication, and engagement.",
@@ -115,7 +114,7 @@ export const PROJECTS = [
   {
     title: "3D Visualization Project Using Three.js - Personal",
     type: "Personal Project",
-    period: "Feb. 2023 – May. 2023",
+    period: "Feb. 2023 – May 2023",
     link: "https://github.com/muilyang12/Three.js-Study",
     techStack: ["Three.js", "Webpack"],
     imgSrcs: { Preview: ["./assets/Projects - Three.js Study.gif"] },

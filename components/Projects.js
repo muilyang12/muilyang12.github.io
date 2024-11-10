@@ -34,7 +34,15 @@ export default class Projects extends HTMLElement {
                 <div class="projects-title">Projects</div>
 
                 ${PROJECTS.map((exp) => {
-                  const { title, link, period, techStack, explanation, imgSrcs, description } = exp;
+                  const {
+                    title,
+                    link,
+                    period = "",
+                    techStack,
+                    explanation,
+                    imgSrcs,
+                    description,
+                  } = exp;
 
                   let linkHTML = "";
                   if (typeof link === "string")

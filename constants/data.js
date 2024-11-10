@@ -190,9 +190,10 @@ export const CLASSES = [
     link: "https://github.com/muilyang12/Classes/tree/master/Machine%20Learning",
     semester: "Fall 2024",
     imgSrcs: [
-      "./assets/Classes - ML (LR with MSE).gif",
-      "./assets/Classes - ML (Perceptron).gif",
+      "./assets/Classes - ML (K Means Clustering).png",
       "./assets/Classes - ML (SVM).gif",
+      "./assets/Classes - ML (Perceptron).gif",
+      "./assets/Classes - ML (LR with MSE).gif",
     ],
     description: [],
   },

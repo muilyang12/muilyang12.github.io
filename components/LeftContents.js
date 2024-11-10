@@ -21,7 +21,8 @@ export default class LeftContents extends HTMLElement {
             <a href="#classes">Classes</a>
             <a href="#education">Education</a>
             <my-link linkUrl="./assets/Resume - Muil Yang (Marked).pdf" iconColor="${Bright}">Resume</my-link>
-            <my-link linkUrl="https://www.linkedin.com/in/muil-yang-662608201/" iconColor="${Bright}">LinkedIn</my-link>
+            <my-link linkUrl="https://www.linkedin.com/in/muilyang/" iconColor="${Bright}">LinkedIn</my-link>
+            <my-link linkUrl="https://github.com/muilyang12/" iconColor="${Bright}">GitHub</my-link>
         </nav>
 
         <style>

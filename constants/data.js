@@ -33,6 +33,7 @@ export const PROJECTS = [
   {
     title: "Personal Website",
     type: "Personal Project",
+    link: "https://github.com/muilyang12/muilyang12.github.io",
     techStack: ["Vanilla JS", "Web Components API", "HTML/CSS"],
     imgSrcs: { Architecture: ["./assets/Projects - Personal Website.png"] },
     description: [
@@ -44,8 +45,10 @@ export const PROJECTS = [
     type: "Company Project",
     period: "Jul. 2022 – May 2024",
     techStack: [
+      "TypeScript",
       "Next.js",
       "React.js",
+      "Three.js",
       "Node.js",
       "WebAssembly",
       "WebSocket",
@@ -58,34 +61,51 @@ export const PROJECTS = [
 
     imgSrcs: { Preview: ["./assets/Projects - Midas Workspace.png"] },
     description: [
-      "Implemented a high-performance 3D model viewer using WebGL enabling real-time manipulation of complex architectural designs, increasing user productivity by 30%.",
+      "Implemented a high-performance 3D model viewer using Next.js and a WebGL-based rendering engine, enabling real-time manipulation of complex architectural designs and increasing user productivity by 45%.",
       "Designed and integrated a secure, scalable online file-sharing system, supporting multi-format engineering documents up to 10GB.",
-      "Implemented Inverse View Transformation feature to map Camera Coordinate System to World Coordinate System, allowing document attachment to elements like columns and slabs in 3D models.",
+      "Built a RESTful API with Node.js to deliver visualization data, including GIS terrain data.",
       "Elevated the visual representation of the 3D model viewer by integrating terrain data from ArcGIS with satellite imagery, enabling accurate visualizations of buildings and their immediate surroundings.",
-      "Integrated recoil.js for streamlined state management and optimized class instance handling, and integrated real-time updates using WebSocket, significantly enhancing application performance by 20%.",
-      "Designed a sub-view framework that enables users to seamlessly view related files, such as DWG or IFC, alongside 3D models, improving workflow efficiency and increasing user productivity by 40%.",
-      "Utilized Next.js Lazy Loading to optimize initial render by separating non-essential components, reducing bundle size by approximately 10%.",
+      "Implemented Inverse View Transformation feature to map Camera Coordinate System to World Coordinate System, allowing document attachment to elements like columns and slabs in 3D models.",
+      "Designed a sub-view framework that enables users to seamlessly view related files, such as DWG or IFC, alongside 3D models, improving workflow efficiency and increasing user productivity by 33%.",
+      "Introduced Recoil.js for lightweight state management and efficient handling of class instances, and actively integrated real-time functionality using WebSocket.",
     ],
   },
   {
     title: "Midas Members - Midas Software Inc.",
     type: "Company Project",
     period: "Dec. 2022 – Sep. 2023",
-    techStack: ["Next.js", "React.js", "Node.js", "Webpack", "Docker", "Amazon Web Services (AWS)"],
+    techStack: [
+      "TypeScript",
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Webpack",
+      "Docker",
+      "Amazon Web Services (AWS)",
+    ],
     explanation:
       "Membership management system designed to streamline user account creation, authentication, and engagement.",
     imgSrcs: { Architecture: ["./assets/Projects - Midas Members.png"] },
     description: [
-      "Modernized legacy systems with React-based frontend, significantly improving security and enhancing user experience, which led to 50% of the user base transitioning to a more secure and improved service within a quarter.",
-      "Developed an SSO system with JWT authentication, streamlining login across platforms and boosting workflow efficiency by 50%, while enhancing security and user experience.",
-      "Executed phased rollout, transitioning 50% of customers to email-based accounts in first quarter.",
+      "Modernized legacy systems with React-based frontend, significantly improving security and enhancing user experience, which led to 83% of the user base transitioning to a more secure and improved service within a quarter.",
+      "Developed an SSO system with JWT authentication, enabling seamless login across platforms and enhancing security, which improved user experience by 67%.",
     ],
   },
   {
     title: "Nutrition Specs - Personal",
     type: "Personal Project",
     period: "Jun. 2024 – Jul. 2024",
-    techStack: ["Next.js", "Django", "SQLite", "Docker", "Amazon Web Services (AWS)", "OpenAI API"],
+    link: "https://github.com/muilyang12/nutrition-specs",
+    techStack: [
+      "TypeScript",
+      "Python",
+      "Next.js",
+      "Django",
+      "SQLite",
+      "Docker",
+      "Amazon Web Services (AWS)",
+      "OpenAI API",
+    ],
     explanation:
       "Web service for comparing nutritional information across multiple products within the same category.",
     imgSrcs: { Architecture: ["./assets/Projects - Nutrition Specs (Architecture).png"] },
@@ -109,6 +129,26 @@ export const PROJECTS = [
       "Created a robust backend with Flask and MySQL, facilitating seamless integration between the LLM API and the frontend.",
       "Engineered and refined prompts to optimize the LLM API's response quality. Experimented with various prompt structures and iterations to gradually improve the result.",
       "Deployed the entire system on Naver Cloud, optimizing for performance and reliability in a cloud environment",
+    ],
+  },
+  {
+    title: "Flood Monitoring System - University of Texas at Arlington",
+    type: "Company Project",
+    period: "Sep. 2019 - May 2020",
+    techStack: [
+      "JavaScript",
+      "Node.js",
+      "Amazon Web Services (AWS)",
+      "HTML/CSS",
+      "Embedded System",
+      "Atmel's Microcontroller",
+      "Arduino",
+    ],
+    explanation:
+      "A flood monitoring system comprised of an embedded system and web service to monitor flood-prone areas.",
+    description: [
+      "Engineered and deployed a Node.js RESTful API server on AWS for data collection and developed a website to visualize the data through graphs.",
+      "Reduced the system's power consumption by 40% by transitioning from Arduino Mega to Atmel microcontrollers, carefully selecting hardware that provided the appropriate level of computing power for our project.",
     ],
   },
   {

@@ -191,6 +191,7 @@ export const CLASSES = [
     semester: "Fall 2024",
     imgSrcs: [
       "./assets/Classes - ML (K Means Clustering).png",
+      "./assets/Classes - ML (Decision Tree).png",
       "./assets/Classes - ML (SVM).gif",
       "./assets/Classes - ML (Perceptron).gif",
       "./assets/Classes - ML (LR with MSE).gif",

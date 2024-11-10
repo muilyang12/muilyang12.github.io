@@ -30,15 +30,16 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
-  // {
-  //   title: "Personal Website",
-  //   type: "Personal Project",
-  //   period: "Aug. 2024",
-  //   techStack: ["Web Components API", "Pure JS"],
-  //   description: [
-  //     "Developed my personal website using Web Components API and pure JavaScript, without relying on React.js.",
-  //   ],
-  // },
+  {
+    title: "Personal Website",
+    type: "Personal Project",
+    period: "",
+    techStack: ["Vanilla JS", "Web Components API", "HTML/CSS"],
+    imgSrcs: { Architecture: ["./assets/Projects - Personal Website.png"] },
+    description: [
+      "Developed my personal website using Vanilla JS with Web Components API not any other Framework.",
+    ],
+  },
   {
     title: "Midas Workspace - Midas Software Inc.",
     type: "Company Project",

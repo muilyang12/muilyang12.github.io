@@ -199,6 +199,8 @@ export const SKILLS = [
   { skillName: "Django", logoSrc: "./assets/Skills - Django.png" },
   { skillName: "Flask", logoSrc: "./assets/Skills - Flask.png" },
   { skillName: "AWS", logoSrc: "./assets/Skills - AWS.png" },
+  { skillName: "GitHub Actions", logoSrc: "./assets/Skills - GitHub Actions.png" },
+  { skillName: "Jenkins", logoSrc: "./assets/Skills - Jenkins.png" },
   { skillName: "Docker", logoSrc: "./assets/Skills - Docker.png" },
   { skillName: "Kubernetes", logoSrc: "./assets/Skills - Kubernetes.png" },
 ];

@@ -24,6 +24,9 @@ export default class ImagesCredit extends HTMLElement {
                 <li>
                     https://www.iconfinder.com/
                 </li>
+                <li>
+                    https://www.svgrepo.com/
+                </li>
             </ul>
           </div>
         </section>

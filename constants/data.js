@@ -103,6 +103,7 @@ export const PROJECTS = [
       "Django",
       "SQLite",
       "Docker",
+      "GitHub Actions",
       "Amazon Web Services (AWS)",
       "OpenAI API",
     ],

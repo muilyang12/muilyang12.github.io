@@ -1,7 +1,7 @@
 export const INTRODUCTION_TITLE = "Hi! I’m Muil Yang ✨";
 
 export const INTRODUCTIONS = [
-  "Master's candidate in Computer Science (expected May 2026) with over 3 years of experience in software engineering, specializing in developing complex, scalable web applications, optimizing systems, and leveraging cloud technologies.",
+  "Master's candidate in Computer Science (expected Dec 2025) with over 3 years of experience in software engineering, specializing in developing complex, scalable web applications, optimizing systems, and leveraging cloud technologies.",
   "I am proficient in JavaScript/TypeScript, Python, Java, Next.js/React.js, Node.js, Django, Docker/Kubernetes, AWS services, and CI/CD pipeline.",
 ];
 
@@ -264,7 +264,7 @@ export const EDUCATION = [
     schoolName: "The University of Texas at Dallas",
     location: "Richardson, TX",
     major: "Master of Science in Computer Science",
-    period: "Aug. 2024 - May 2026 (Expected)",
+    period: "Aug. 2024 - Dec 2025 (Expected)",
   },
   {
     schoolName: "Korea National Open University",

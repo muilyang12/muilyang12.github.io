@@ -229,6 +229,13 @@ export const CERTIFICATIONS = [
 
 export const CLASSES = [
   {
+    title: "Computer Graphics",
+    link: "https://github.com/muilyang12/Classes/tree/master/Computer%20Graphics",
+    semester: "Spring 2025",
+    imgSrcs: ["./assets/Classes - CG (Rasterization).png", "./assets/Classes - CG (MVP).png"],
+    description: [],
+  },
+  {
     title: "Machine Learning",
     link: "https://github.com/muilyang12/Classes/tree/master/Machine%20Learning",
     semester: "Fall 2024",

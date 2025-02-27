@@ -40,13 +40,11 @@ export default class Skills extends HTMLElement {
                     return `
                       <div class="skills-item">
                         <div class="skill-image-box">
-                          <img src="${logoSrc}" width="70" height="70" alt="" />
+                          <img class="skill-image" src="${logoSrc}"alt="" />
                         </div>
-                        <div>
-                            <span class="skill-title">
-                                ${skillName}
-                            </span>
-                        </div>
+                        <span class="skill-title">
+                            ${skillName}
+                        </span>
                       </div>
                     `;
                   }).join("")}
@@ -68,10 +66,10 @@ export default class Skills extends HTMLElement {
             .skills {
                 box-sizing: border-box;
 
-              width: 75%;
-              margin-left: 8%;
-              padding: 4%;
-              border-radius: 20px;
+                width: 75%;
+                margin-left: 8%;
+                padding: 4%;
+                border-radius: 20px;
 
                 display: flex;
                 flex-direction: column;
@@ -119,13 +117,56 @@ export default class Skills extends HTMLElement {
                 align-items: center;
             }
 
-            .skill-image-box > img {
+            .skill-image {
+                width: 70px;
+                height: 70px;
+                
                 object-fit: contain;
             }
 
             .skill-title {
+                text-align: center;
+
                 font-size: 18px;
                 font-weight: bold;
+            }
+
+            @media (max-width: 576px) {
+                .skills {
+                    width: 80%;
+                    margin-left: 0;
+                    font-size: 12px;
+                }
+
+                .skills-title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .skills-items {
+                    gap: 10px;
+                }
+
+                .skills-item {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 20px;
+                    gap: 10px;
+                }
+
+                .skill-image-box {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .skill-image {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .skill-title {
+                    font-size: 12px;
+                }
             }
         </style>
     `;

@@ -125,6 +125,39 @@ export default class Introduction extends HTMLElement {
 
                 font-size: 18px;
             }
+
+            @media (max-width: 576px) {
+                .introduction {
+                    width: 80%;
+                    padding: 8%;
+                    margin-left: 0;
+                    font-size: 12px;
+
+                    flex-direction: column;
+                    gap: 20px;
+                }
+
+                .left {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .left > img {
+                    width: 80%;
+                }
+
+                .introduction-title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .introduction-sentences {
+                    gap: 16px;
+
+                    font-size: 14px;
+                }
+            }
         </style>
     `;
   }

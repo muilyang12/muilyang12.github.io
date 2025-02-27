@@ -241,7 +241,7 @@ export default class Projects extends HTMLElement {
 
               display: flex;
               flex-direction: column;
-              gap: 4px;
+              gap: 8px;
             }
 
             .project-detail-sub-title {
@@ -282,6 +282,77 @@ export default class Projects extends HTMLElement {
               gap: 5px;
 
               font-size: 18px;
+            }
+
+            @media (max-width: 576px) {
+                .projects {
+                    width: 80%;
+                    padding: 8%;
+                    margin-left: 0;
+                    font-size: 12px;
+                }
+
+                .projects-title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+                
+                .projects-item {
+                    gap: 2px;
+                }
+
+                .projects-info {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 2px;
+                }
+                
+                .projects-info > div {
+                    width: 100%;
+
+                    justify-content: space-between;
+                }
+
+                .projects-info-title {
+                    font-size: 16px;
+                }
+
+                .projects-info-period {
+                    font-size: 10px;
+                }
+
+                .projects-tech-stack {
+                    flex-wrap: wrap;
+                    gap: 3px;
+                }
+
+                .projects-tech-item {
+                    padding: 2px 4px;
+                    border-radius: 6px;
+                    
+                    font-size: 10px;
+                }
+
+                .project-detail {
+                    padding: 20px;
+                    gap: 16px;
+                }
+
+                .project-detail > div {
+                  gap: 6px;
+                }
+
+                .project-detail-sub-title {
+                    font-size: 16px;
+                }
+
+                .projects-description > ul {
+                    font-size: 14px;
+                }
+
+                img {
+                    width: 100%;
+                }
             }
         </style>
     `;

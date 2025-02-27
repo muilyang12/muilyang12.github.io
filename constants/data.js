@@ -282,15 +282,15 @@ export const EDUCATION = [
   {
     schoolName: "Yonsei University",
     location: "Seoul, Republic of Korea",
-    major:
-      'Bachelor of Science in Civil Engineering<span style="font-size: 16px; padding-left: 30px;">- Received National Merit Scholarship.</span>',
+    major: "Bachelor of Science in Civil Engineering",
+    note: "Received National Merit Scholarship.",
     period: "Mar. 2013 - Feb. 2021",
   },
   {
     schoolName: "The University of Texas at Arlington",
     location: "Arlington, TX",
-    major:
-      'Exchange Program<span style="font-size: 16px; padding-left: 30px;">- Received National Merit Scholarship.</span>',
+    major: "Exchange Program",
+    note: "Received National Merit Scholarship.",
     period: "Aug. 2019 - May 2020",
   },
 ];

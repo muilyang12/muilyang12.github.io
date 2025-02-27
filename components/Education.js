@@ -34,7 +34,7 @@ export default class Education extends HTMLElement {
                 <div class="education-title">Education</div>
 
                 ${EDUCATION.map((edu) => {
-                  const { schoolName, location, major, period } = edu;
+                  const { schoolName, location, major, note, period } = edu;
 
                   return `
                     <div class="education-item">
@@ -49,6 +49,7 @@ export default class Education extends HTMLElement {
                         <div class="education-major">
                             <span class="major-name">
                                 <i>${major}</i>
+                                ${note ? `<i class="school-note">- ${note}</i>` : ""}
                             </span>
                             <span class="major-period">
                                 ${period}
@@ -125,6 +126,10 @@ export default class Education extends HTMLElement {
                 font-size: 16px;
             }
 
+            .school-note {
+                padding-left: 30px;
+            }
+
             ul {
                 margin: 1px 0;
 
@@ -168,10 +173,18 @@ export default class Education extends HTMLElement {
                     flex-direction: column;
                     align-items: flex-start;
                     gap: 2px;
+
+                    font-size: 12px;
                 }
 
                 .major-name {
-                    font-size: 12px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                }
+
+                .school-note {
+                    padding-left: 20px;
                 }
 
                 .major-period {

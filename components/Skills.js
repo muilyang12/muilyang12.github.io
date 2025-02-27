@@ -30,7 +30,7 @@ export default class Skills extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = `
         <section id="skills" class="skills-wrapper">
-            <div class="skils">
+            <div class="skills">
                 <div class="skills-title">Technical Skills</div>
 
                 <div class="skills-items">
@@ -65,8 +65,8 @@ export default class Skills extends HTMLElement {
                 justify-content: center;
             }
 
-            .skils {
-	            box-sizing: border-box;
+            .skills {
+                box-sizing: border-box;
 
               width: 75%;
               margin-left: 8%;
@@ -89,8 +89,6 @@ export default class Skills extends HTMLElement {
             }
 
             .skills-items {
-                width: fit-conotent;
-
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;

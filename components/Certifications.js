@@ -121,6 +121,35 @@ export default class Certifications extends HTMLElement {
                 
                 font-size: 14px;
             }
+
+            @media (max-width: 576px) {
+                .certifications {
+                    width: 80%;
+                    padding: 8%;
+                    margin-left: 0;
+                    font-size: 12px;
+                }
+
+                .certifications-title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .certification-item {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 4px;
+                }
+                
+                .certification-name {
+                    font-size: 16px;
+                }
+
+                .certification-dates {
+                    align-items: flex-start;
+                    font-size: 10px;
+                }
+            }
         </style>
     `;
   }

@@ -134,6 +134,7 @@ export default class Skills extends HTMLElement {
             @media (max-width: 576px) {
                 .skills {
                     width: 80%;
+                    padding: 8%;
                     margin-left: 0;
                     font-size: 12px;
                 }

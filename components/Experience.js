@@ -143,13 +143,14 @@ export default class Experience extends HTMLElement {
             @media (max-width: 576px) {
                 .experience {
                     width: 80%;
+                    padding: 8%;
                     margin-left: 0;
                     font-size: 12px;
                 }
 
                 .experience-title {
-                    font-size: 28px;
-                    margin-bottom: 15px;
+                    font-size: 26px;
+                    margin-bottom: 20px;
                 }
 
                 .experience-position {

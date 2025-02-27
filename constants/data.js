@@ -20,13 +20,6 @@ export const EXPERIENCE = [
     companyLocation: "Arlington, TX",
     description: [],
   },
-  {
-    title: "Private Mathematics Tutor",
-    period: "Mar. 2017 - Jun. 2019",
-    companyName: "Self-employed",
-    companyLocation: "Republic of Korea",
-    description: [],
-  },
 ];
 
 export const PROJECTS = [

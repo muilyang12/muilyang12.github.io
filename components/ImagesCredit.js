@@ -72,6 +72,25 @@ export default class ImagesCredit extends HTMLElement {
 
                 font-size: 16px;
             }
+
+            @media (max-width: 576px) {
+                .images-credit {
+                    padding: 15px 15px 5px 15px;
+                }
+
+                .images-credit-title {
+                    font-size: 18px;
+                }
+
+                .images-credit-list {
+                    padding-left: 20px;
+                    font-size: 14px;
+                }
+
+                .images-credit-wrapper {
+                    gap: 6px;
+                }
+            }
         </style>
     `;
   }

@@ -132,6 +132,52 @@ export default class Education extends HTMLElement {
                 flex-direction: column;
                 gap: 4px;
             }
+
+            @media (max-width: 576px) {
+                .education {
+                    width: 80%;
+                    padding: 8%;
+                    margin-left: 0;
+                    font-size: 12px;
+                }
+
+                .education-title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .education-item {
+                    gap: 2px;
+                }
+
+                .education-school {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 2px;
+                }
+
+                .school-title {
+                    font-size: 16px;
+                }
+
+                .school-location {
+                    font-size: 12px;
+                }
+
+                .education-major {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 2px;
+                }
+
+                .major-name {
+                    font-size: 12px;
+                }
+
+                .major-period {
+                    font-size: 10px;
+                }
+            }
         </style>
     `;
   }

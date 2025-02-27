@@ -176,6 +176,54 @@ export default class Classes extends HTMLElement {
 
                 font-size: 18px;
             }
+
+            @media (max-width: 576px) {
+                .classes {
+                    width: 80%;
+                    padding: 8%;
+                    margin-left: 0;
+                    font-size: 12px;
+                }
+
+                .classes-title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .classes-info {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 4px;
+                }
+
+                .classes-info > div {
+                    width: 100%;
+                    
+                    justify-content: space-between;
+                }
+
+                .classes-info-title {
+                    font-size: 16px;
+                }
+
+                .classes-info-semester {
+                    font-size: 10px;
+                }
+
+                .class-detail {
+                    padding: 30px;
+                    gap: 16px;
+                }
+
+                .class-images {
+                    gap: 16px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+            }
         </style>
     `;
   }

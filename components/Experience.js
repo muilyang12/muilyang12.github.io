@@ -142,11 +142,15 @@ export default class Experience extends HTMLElement {
                     margin-bottom: 20px;
                 }
 
+                .experience-item {
+                    gap: 2px;
+                }
+
                 .experience-position {
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
-                    gap: 4px;
+                    gap: 2px;
                 }
 
                 .position-title {
@@ -157,7 +161,7 @@ export default class Experience extends HTMLElement {
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
-                    gap: 4px;
+                    gap: 2px;
                 }
 
             }

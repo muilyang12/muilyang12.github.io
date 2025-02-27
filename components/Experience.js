@@ -54,17 +54,6 @@ export default class Experience extends HTMLElement {
                                 ${companyLocation}
                             </span>
                         </div>
-                        <ul class="experience-description">
-                            ${description
-                              .map((des) => {
-                                return `
-                                <li>
-                                    ${des}
-                                </li>
-                                `;
-                              })
-                              .join("")}
-                        </ul>
                     </div>
                   `;
                 }).join("")}

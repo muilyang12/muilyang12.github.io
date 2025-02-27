@@ -49,6 +49,33 @@ export default class LeftContents extends HTMLElement {
 
               cursor: pointer;
             }
+
+            @media (max-width: 576px) {
+                nav {
+                    position: fixed;
+                    top: 9px;
+                    left: 100px;
+                    transform: translate(0, 0);
+
+                    width: calc(100% - 124px);
+                    padding: 8px 6px;
+
+                    display: flex;
+                    flex-direction: row;
+
+                    border: 1px solid ${Bright};
+                    border-radius: 4px;
+
+                    overflow-x: auto;
+
+                    font-size: 12px;
+                }
+
+                nav > a {
+                    display: flex;
+                    align-items: center;
+                }
+            }
         </style>
         `;
   }

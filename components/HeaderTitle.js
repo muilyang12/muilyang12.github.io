@@ -1,4 +1,4 @@
-import { Bright } from "../constants/color.js";
+import { Background, Bright } from "../constants/color.js";
 
 export default class HeaderTitle extends HTMLElement {
   constructor() {
@@ -22,21 +22,43 @@ export default class HeaderTitle extends HTMLElement {
               position: fixed;
               top: 10px;
               left: 10px;
-              padding: 10px 10px;
 
               display: flex;
-              flex-direction: column;
               gap: 20px;
               
-              color: ${Bright};
               font-size: 34px;
             }
 
             .header-title > a {
+              width: fit-content;
+              padding: 10px 10px;
+
               text-decoration: none;
-              color: inherit;S
+              color: ${Bright};
 
               cursor: pointer;
+            }
+
+            @media (max-width: 576px) {
+                .header-title {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    height: 49px;
+                    border-bottom: 0.5px solid ${Bright};
+
+                    align-items: center;
+                    
+                    width: 100%;
+                    background-color: ${Background};
+                    
+                }
+
+                .header-title > a {
+                    padding: 6px 8px;
+
+                    font-size: 18px;
+                }
             }
         </style>
         `;

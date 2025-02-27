@@ -139,6 +139,38 @@ export default class Experience extends HTMLElement {
                 flex-direction: column;
                 gap: 4px;
             }
+
+            @media (max-width: 576px) {
+                .experience {
+                    width: 80%;
+                    margin-left: 0;
+                    font-size: 12px;
+                }
+
+                .experience-title {
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                }
+
+                .experience-position {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 4px;
+                }
+
+                .position-title {
+                    font-size: 20px;
+                }
+
+                .experience-company {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 4px;
+                }
+
+            }
         </style>
     `;
   }

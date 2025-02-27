@@ -53,12 +53,12 @@ export default class LeftContents extends HTMLElement {
             @media (max-width: 576px) {
                 nav {
                     position: fixed;
-                    top: 9px;
+                    top: 8px;
                     left: 100px;
                     transform: translate(0, 0);
 
                     width: calc(100% - 124px);
-                    padding: 8px 6px;
+                    padding: 9px 6px;
 
                     display: flex;
                     flex-direction: row;

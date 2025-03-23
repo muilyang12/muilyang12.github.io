@@ -226,6 +226,7 @@ export const CLASSES = [
     link: "https://github.com/muilyang12/Classes/tree/master/Computer%20Graphics",
     semester: "Spring 2025",
     imgSrcs: [
+      "./assets/Classes - CG (Bezier Curve).png",
       "./assets/Classes - CG (Lighting & Texture).png",
       "./assets/Classes - CG (Rasterization).png",
       "./assets/Classes - CG (MVP).png",

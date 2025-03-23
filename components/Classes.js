@@ -65,8 +65,8 @@ export default class Classes extends HTMLElement {
                                       <div class="class-images">
                                         ${imgSrcs
                                           .map(
-                                            (imgSrc, index) => `
-                                              <img src="${imgSrc}" width="800" alt="Image ${
+                                            ({ src, width = 800 }, index) => `
+                                              <img src="${src}" width="${width}" alt="Image ${
                                               index + 1
                                             } for project ${title}" />
                                             `
@@ -164,6 +164,7 @@ export default class Classes extends HTMLElement {
                 flex-direction: column;
                 gap: 30px;
                 justify-content: center;
+                align-items: center;
             }
 
             .classes-description {

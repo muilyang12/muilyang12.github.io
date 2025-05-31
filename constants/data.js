@@ -248,7 +248,9 @@ export const CERTIFICATIONS = [
 export const CLASSES = [
   {
     title: "Computer Graphics",
-    link: "https://github.com/muilyang12/Classes/tree/master/Computer%20Graphics",
+    link: {
+      GitHub: "https://github.com/muilyang12/Classes/tree/master/Computer%20Graphics",
+    },
     semester: "Spring 2025",
     imgSrcs: [
       { src: "./assets/Classes - CG (Path Tracing).png", width: 400 },
@@ -262,7 +264,9 @@ export const CLASSES = [
   },
   {
     title: "Statistics for Data Science",
-    link: "https://github.com/muilyang12/Classes/tree/master/Statistics%20for%20Data%20Science",
+    link: {
+      GitHub: "https://github.com/muilyang12/Classes/tree/master/Statistics%20for%20Data%20Science",
+    },
     semester: "Spring 2025",
     imgSrcs: [
       { src: "./assets/Classes - Statistics (Boxplot of Voltage Remote vs Local).png", width: 400 },
@@ -273,7 +277,9 @@ export const CLASSES = [
   },
   {
     title: "Machine Learning",
-    link: "https://github.com/muilyang12/Classes/tree/master/Machine%20Learning",
+    link: {
+      GitHub: "https://github.com/muilyang12/Classes/tree/master/Machine%20Learning",
+    },
     semester: "Fall 2024",
     imgSrcs: [
       { src: "./assets/Classes - ML (K Means Clustering).png" },

@@ -41,6 +41,17 @@ export default class Classes extends HTMLElement {
                     linkHTML = `
                         <my-link linkUrl=${link} iconColor="${Background}">Link</my-link>
                     `;
+                  else if (typeof link === "object") {
+                    linkHTML = `
+                            ${Object.entries(link)
+                              .map(([title, linkUrl]) => {
+                                return `
+                                    <my-link linkUrl=${linkUrl} iconColor="${Background}">${title}</my-link>
+                                `;
+                              })
+                              .join("")}
+                        `;
+                  }
 
                   return `
                     <div class="classes-item">

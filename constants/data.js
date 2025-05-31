@@ -7,6 +7,13 @@ export const INTRODUCTIONS = [
 
 export const EXPERIENCE = [
   {
+    title: "Software Engineer Intern",
+    period: "May 2025 - Present",
+    companyName: "Esri",
+    companyLocation: "Redlands, CA",
+    description: [],
+  },
+  {
     title: "Software Engineer",
     period: "Jan. 2021 - May 2024",
     companyName: "Midas Software Inc.",
@@ -276,12 +283,6 @@ export const CLASSES = [
       { src: "./assets/Classes - ML (Perceptron).gif" },
       { src: "./assets/Classes - ML (LR with MSE).gif" },
     ],
-    description: [],
-  },
-  {
-    title: "Design and Analysis of Computer Algorithms",
-    semester: "Fall 2024",
-    imgSrcs: [{ src: "./assets/Classes - Algorithm.png" }],
     description: [],
   },
   {

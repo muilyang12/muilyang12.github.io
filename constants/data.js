@@ -53,7 +53,7 @@ export const PROJECTS = [
       "Web-based image generator leveraging WebAssembly (Wasm) to render uploaded OBJ models via ray tracing from a user-defined camera position; for each pixel, it casts a ray, traces it through the scene, and computes the correct color.",
     imgSrcs: {
       Preview: ["./assets/Projects - Ray Tracing Image Generator 1.gif"],
-      Architecture: ["./assets/Projects - Ray Tracing Image Generator 2.png"],
+      "Logic & Architecture": ["./assets/Projects - Ray Tracing Image Generator 2.png"],
     },
     description: [
       "Created as the final project for the Computer Graphics class, which covered rendering algorithms such as Phong, Ray Tracing, and Path Tracing.",

@@ -51,7 +51,10 @@ export const PROJECTS = [
     techStack: ["TypeScript", "React.js", "Three.js", "C++", "WebAssembly (Wasm)"],
     explanation:
       "Web-based image generator leveraging WebAssembly (Wasm) to render uploaded OBJ models via ray tracing from a user-defined camera position; for each pixel, it casts a ray, traces it through the scene, and computes the correct color.",
-    imgSrcs: { Preview: ["./assets/Projects - Ray Tracing Image Generator.gif"] },
+    imgSrcs: {
+      Preview: ["./assets/Projects - Ray Tracing Image Generator 1.gif"],
+      Architecture: ["./assets/Projects - Ray Tracing Image Generator 2.png"],
+    },
     description: [
       "Created as the final project for the Computer Graphics class, which covered rendering algorithms such as Phong, Ray Tracing, and Path Tracing.",
       "Implemented the Ray Tracing rendering algorithm in C++ (CPU-only), compiled it to WebAssembly, and integrated it into a React.js frontend.",

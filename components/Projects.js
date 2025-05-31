@@ -99,25 +99,27 @@ export default class Projects extends HTMLElement {
                      
                                 ${
                                   imgSrcs && Object.keys(imgSrcs).length > 0
-                                    ? Object.entries(imgSrcs).map(
-                                        ([title, imgs]) =>
-                                          `
-                                          <div class="project-images">
-                                            <div class="project-detail-sub-title">${title}</div>
-                                            <div class="image-wrapper">
-                                              ${imgs
-                                                .map(
-                                                  (imgSrc, index) => `
-                                                    <img src="${imgSrc}" width="800" alt="Image ${
-                                                    index + 1
-                                                  } for project ${title}" />
-                                                  `
-                                                )
-                                                .join("")}
+                                    ? Object.entries(imgSrcs)
+                                        .map(
+                                          ([title, imgs]) =>
+                                            `
+                                            <div class="project-images">
+                                              <div class="project-detail-sub-title">${title}</div>
+                                              <div class="image-wrapper">
+                                                ${imgs
+                                                  .map(
+                                                    (imgSrc, index) => `
+                                                      <img src="${imgSrc}" width="800" alt="Image ${
+                                                      index + 1
+                                                    } for project ${title}" />
+                                                    `
+                                                  )
+                                                  .join("")}
+                                              </div>
                                             </div>
-                                          </div>
                                           `
-                                      )
+                                        )
+                                        .join("")
                                     : ""
                                 }
 

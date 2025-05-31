@@ -34,6 +34,21 @@ export const PROJECTS = [
     ],
   },
   {
+    title: "Ray Tracing Image Generator - Computer Graphics Class",
+    type: "Class Project",
+    period: "Apr. 2025 – May. 2025",
+    link: "https://github.com/muilyang12/ray-tracing-image-generator",
+    techStack: ["TypeScript", "React.js", "Three.js", "C++", "WebAssembly (WASM)"],
+    explanation:
+      "Web-based image generator leveraging WebAssembly (Wasm) to render uploaded OBJ models via ray tracing from a user-defined camera position; for each pixel, it casts a ray, traces it through the scene, and computes the correct color.",
+    imgSrcs: { Architecture: ["./assets/Projects - Ray Tracing Image Generator.gif"] },
+    description: [
+      "Created as the final project for the Computer Graphics class, which covered rendering algorithms such as Phong, Ray Tracing, and Path Tracing.",
+      "Implemented the Ray Tracing rendering algorithm in C++ (CPU-only), compiled it to WebAssembly, and integrated it into a React.js frontend.",
+      "Deployed the application on GitHub Pages for public access.",
+    ],
+  },
+  {
     title: "Midas Workspace - Midas Software Inc.",
     type: "Company Project",
     period: "Jul. 2022 – May 2024",

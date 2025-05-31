@@ -292,7 +292,6 @@ export const CLASSES = [
   },
   {
     title: "Database Design",
-    link: "https://github.com/muilyang12/Classes/tree/master/Database%20Design",
     semester: "Fall 2024",
     imgSrcs: [
       { src: "./assets/Classes - Database Design 1.png" },

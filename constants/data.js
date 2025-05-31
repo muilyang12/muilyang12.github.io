@@ -35,7 +35,7 @@ export const PROJECTS = [
     type: "Personal Project",
     link: "https://github.com/muilyang12/muilyang12.github.io",
     techStack: ["Vanilla JS", "Web Components API", "HTML/CSS"],
-    imgSrcs: { Architecture: ["./assets/Projects - Personal Website.png"] },
+    imgSrcs: { Preview: ["./assets/Projects - Personal Website.png"] },
     description: [
       "Developed my personal website using Vanilla JS with Web Components API not any other Framework.",
     ],
@@ -51,7 +51,7 @@ export const PROJECTS = [
     techStack: ["TypeScript", "React.js", "Three.js", "C++", "WebAssembly (Wasm)"],
     explanation:
       "Web-based image generator leveraging WebAssembly (Wasm) to render uploaded OBJ models via ray tracing from a user-defined camera position; for each pixel, it casts a ray, traces it through the scene, and computes the correct color.",
-    imgSrcs: { Architecture: ["./assets/Projects - Ray Tracing Image Generator.gif"] },
+    imgSrcs: { Preview: ["./assets/Projects - Ray Tracing Image Generator.gif"] },
     description: [
       "Created as the final project for the Computer Graphics class, which covered rendering algorithms such as Phong, Ray Tracing, and Path Tracing.",
       "Implemented the Ray Tracing rendering algorithm in C++ (CPU-only), compiled it to WebAssembly, and integrated it into a React.js frontend.",
@@ -77,7 +77,7 @@ export const PROJECTS = [
     explanation:
       "Collaborative web app for architectural and civil engineers. Enables device agnostic sharing and viewing of 3D structural analysis models, with features like model annotations, file sharing, and sub-views for detailed inspections.",
 
-    imgSrcs: { Preview: ["./assets/Projects - Midas Workspace.png"] },
+    imgSrcs: { Architecture: ["./assets/Projects - Midas Workspace.png"] },
     description: [
       "Implemented a high-performance 3D model viewer using Next.js and a WebGL-based rendering engine, enabling real-time manipulation of complex architectural designs and increasing user productivity by 45%.",
       "Designed and integrated a secure, scalable online file-sharing system, supporting multi-format engineering documents up to 10GB.",

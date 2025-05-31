@@ -51,7 +51,13 @@ export default class Projects extends HTMLElement {
                     `;
                   else if (typeof link === "object") {
                     linkHTML = `
-                        <p>Links</p>
+                        ${Object.entries(link)
+                          .map(([title, linkUrl]) => {
+                            return `
+                                <my-link linkUrl=${linkUrl} iconColor="${Background}">${title}</my-link>
+                            `;
+                          })
+                          .join("")}
                     `;
                   }
 

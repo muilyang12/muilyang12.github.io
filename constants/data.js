@@ -37,7 +37,10 @@ export const PROJECTS = [
     title: "Ray Tracing Image Generator - Computer Graphics Class",
     type: "Class Project",
     period: "Apr. 2025 – May. 2025",
-    link: "https://github.com/muilyang12/ray-tracing-image-generator",
+    link: {
+      GitHub: "https://github.com/muilyang12/ray-tracing-image-generator",
+      Demo: "https://muilyang12.github.io/ray-tracing-image-generator/",
+    },
     techStack: ["TypeScript", "React.js", "Three.js", "C++", "WebAssembly (WASM)"],
     explanation:
       "Web-based image generator leveraging WebAssembly (Wasm) to render uploaded OBJ models via ray tracing from a user-defined camera position; for each pixel, it casts a ray, traces it through the scene, and computes the correct color.",

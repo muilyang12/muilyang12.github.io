@@ -226,6 +226,20 @@ export const CLASSES = [
     link: "https://github.com/muilyang12/Classes/tree/master/Computer%20Graphics",
     semester: "Spring 2025",
     imgSrcs: [
+      { src: "./assets/Classes - CG (Path Tracing).png", width: 400 },
+      { src: "./assets/Classes - CG (Ray Tracing).png", width: 400 },
+      { src: "./assets/Classes - CG (Bezier Curve).png", width: 400 },
+      { src: "./assets/Classes - CG (Lighting & Texture).png" },
+      { src: "./assets/Classes - CG (Rasterization).png", width: 400 },
+      { src: "./assets/Classes - CG (MVP).png", width: 400 },
+    ],
+    description: [],
+  },
+  {
+    title: "Statistics for Data Science",
+    link: "https://github.com/muilyang12/Classes/tree/master/Statistics%20for%20Data%20Science",
+    semester: "Spring 2025",
+    imgSrcs: [
       { src: "./assets/Classes - CG (Bezier Curve).png", width: 400 },
       { src: "./assets/Classes - CG (Lighting & Texture).png" },
       { src: "./assets/Classes - CG (Rasterization).png", width: 400 },

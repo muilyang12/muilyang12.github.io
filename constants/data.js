@@ -2,13 +2,20 @@ export const INTRODUCTION_TITLE = "Hi! I’m Muil Yang ✨";
 
 export const INTRODUCTIONS = [
   "Master's candidate in Computer Science (expected Dec 2025) with over 3 years of experience in software engineering, specializing in developing complex, scalable web applications, optimizing systems, and leveraging cloud technologies.",
-  "I am proficient in JavaScript/TypeScript, Python, Java, Next.js/React.js, Node.js, Django, Docker/Kubernetes, AWS services, and CI/CD pipeline.",
+  "I am proficient in React.js, Node.js, Spring Boot, Django, JavaScript, TypeScript, Java, Docker, Jenkins, and AWS.",
 ];
 
 export const EXPERIENCE = [
   {
-    title: "Software Engineer Intern",
-    period: "May 2025 - Present",
+    title: "Software Development Engineer",
+    period: "Sep. 2025 - Present",
+    companyName: "Esri",
+    companyLocation: "Redlands, CA",
+    description: [],
+  },
+  {
+    title: "Software Development Engineer Intern",
+    period: "May 2025 - Aug. 2025",
     companyName: "Esri",
     companyLocation: "Redlands, CA",
     description: [],

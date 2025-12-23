@@ -3,41 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muil Yang's Website ✨</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Muil Yang | Portfolio</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(18, 18, 18, 0.95);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            z-index: 1000;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-left: 2rem;
+        }
+
+        .nav-links a {
+            color: #bbb;
+            text-decoration: none;
+            transition: 0.3s;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .nav-links a:hover {
+            color: #3498db;
+        }
+        
+        .nav-links i {
+            font-size: 1.1rem;
+            vertical-align: middle;
+        }
+
+        .nav-divider {
+            margin-left: 2rem;
+            border-left: 1px solid #444;
+            height: 1.2rem;
+            align-self: center;
+        }
+
+        /* Section Layout */
+        section {
+            min-height: 100vh;
+            padding: 100px 15% 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #ffffff;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+
+        /* Introduction Section */
+        #introduction {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .profile-img {
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            background: #252525;
+            object-fit: cover;
+            border: 2px solid #333;
+        }
+
+        .intro-text h1 {
+            font-size: 3.5rem;
+            color: #fff;
+        }
+
+        .intro-text p {
+            font-size: 1.2rem;
+            color: #aaa;
+            max-width: 600px;
+        }
+
+        .cta-buttons {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .social-icon {
+            font-size: 1.8rem;
+            color: #bbb;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .social-icon:hover {
+            color: #3498db;
+            transform: translateY(-3px);
+        }
+
+        /* Experience & Education Section */
+        .card {
+            background: #1e1e1e;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            border: 1px solid #333;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 { color: #3498db; }
+        .card .date { color: #888; font-size: 0.9rem; }
+
+        /* Technology Section */
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .tech-tag {
+            background: #2c3e50;
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #555;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            #introduction { flex-direction: column; text-align: center; }
+            .nav-links { display: none; }
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <script>NekoType="white"</script>
-    <h1 id=nl>
-        <script src="https://webneko.net/n20171213.js"></script>
-        <a href="https://webneko.net">Neko</a>
-    </h1>
-    <script>
-        window.addEventListener("load", () => {
-            lovelyCat = document.querySelector("#layerNeko0 > a");
-            lovelyCat.click()
-        })
-    </script>
 
-    <my-header-title></my-header-title>
-    <my-left-contents></my-left-contents>
+    <nav>
+        <a href="/" class="logo">MY.</a>
 
-    <main>
-        <my-introduction></my-introduction>
-        <my-experience></my-experience>
-        <my-projects></my-projects>
-        <my-skills></my-skills>
-        <my-certifications></my-certifications>
-        <my-classes></my-classes>
-        <my-education></my-education>
-        <my-images-credit></my-images-credit>
-    </main>
+        <ul class="nav-links">
+            <li><a href="#introduction">Intro</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#technology">Skills</a></li>
 
-    <script src="index.js" type="module"></script>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="global.css" />
+            <li class="nav-divider"></li>
+
+            <li><a href="./assets/Resume - Muil Yang.pdf" target="_blank" title="Resume"><i class="fa-solid fa-file-pdf"></i></a></li>
+            <li><a href="https://github.com/muilyang12/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/muilyang/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <div class="profile-img-container">
+            <img src="./assets/MuilYang_Profile_Photo.jpg" alt="Profile Photo" class="profile-img">
+        </div>
+        <div class="intro-text">
+            <h1>Hi, I'm <span style="color: #3498db;">Muil Yang</span></h1>
+            <p>Software engineer with 3+ years of experience building scalable web applications and backend services, with additional experience designing automated testing infrastructure and CI/CD pipelines in cloud environments.</p>
+
+            <div class="cta-buttons">
+                <a href="./assets/Resume - Muil Yang.pdf" class="social-icon" target="_blank" title="Resume">
+                    <i class="fa-solid fa-file-pdf"></i>
+                </a>
+                <a href="https://github.com/muilyang12/" class="social-icon" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muilyang/" class="social-icon" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Software Development Engineer @ Esri</h3>
+            <p class="date">Sep 2025 - Present | Redlands, CA</p>
+        </div>
+        <div class="card">
+            <h3>Software Development Engineer Intern @ Esri</h3>
+            <p class="date">May 2025 - Aug 2025 | Redlands, CA</p>
+        </div>
+        <div class="card">
+            <h3>Software Engineer @ Midas IT</h3>
+            <p class="date">Jan 2021 - May 2024</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Master of Science in Computer Science</h3>
+            <p class="date">The University of Texas at Dallas</p>
+        </div>
+        <div class="card">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p class="date">Korea National Open University</p>
+        </div>
+        <div class="card">
+            <h3>Bachelor of Science in Civil Engineering</h3>
+            <p class="date">Yonsei University</p>
+        </div>
+        <div class="card">
+            <h3>Study Abroad Program</h3>
+            <p class="date">The University of Texas at Arlington</p>
+        </div>
+    </section>
+
+    <section id="technology">
+        <h2>Technology Stack</h2>
+        <div class="tech-stack">
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Nest.js</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">Django</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Kubernetes</span>
+            <span class="tech-tag">Jenkins</span>
+            <span class="tech-tag">AWS</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Muil Yang. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>

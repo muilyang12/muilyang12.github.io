@@ -138,7 +138,7 @@
             transform: translateY(-3px);
         }
 
-        /* Experience & Education Section */
+        /* Card (Experience & Education & Projects Section) */
         .card {
             background: #1e1e1e;
             padding: 1.5rem;
@@ -154,6 +154,34 @@
 
         .card > h3 { color: #3498db; }
         .card > p { color: #888; font-size: 0.9rem; }
+
+        
+        /* Projects Section */
+        .project-links {
+            margin-top: 0.8rem;
+            display: flex;
+            gap: 15px;
+        }
+
+        .project-links a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 5px 12px;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .project-links a:hover {
+            background: #3498db;
+            color: #fff;
+            transform: translateY(-2px);
+        }
 
         /* Technology Section */
         .tech-stack {
@@ -195,6 +223,7 @@
             <li><a href="#introduction">Intro</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#technology">Skills</a></li>
 
             <li class="nav-divider"></li>
@@ -260,6 +289,33 @@
         <div class="card">
             <h3>Study Abroad Program</h3>
             <p>The University of Texas at Arlington</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Ray Tracing Image Generator</h3>
+            <p>Computer Graphics Class - The University of Texas at Dallas</p>
+
+            <div class="project-links">
+                <a href="https://github.com/muilyang12/ray-tracing-image-generator" target="_blank">
+                    <i class="fab fa-github"></i> Code
+                </a>
+                <a href="https://muilyang12.github.io/ray-tracing-image-generator" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Nutrition Specs</h3>
+            <p>Personal Project</p>
+
+            <div class="project-links">
+                <a href="https://github.com/muilyang12/nutrition-specs" target="_blank">
+                    <i class="fab fa-github"></i> Code
+                </a>
+            </div>
         </div>
     </section>
 

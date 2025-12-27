@@ -155,15 +155,37 @@
         .card > h3 { color: #3498db; }
         .card > p { color: #888; font-size: 0.9rem; }
 
-        
-        /* Projects Section */
-        .project-links {
-            margin-top: 0.8rem;
-            display: flex;
-            gap: 15px;
+        .card-projects-container {
+            margin-top: 1.2rem;
+            padding-top: 1.2rem;
+            border-top: 1px dashed #333;
         }
 
-        .project-links a {
+        .project-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #3498db;
+            margin-bottom: 0.8rem;
+            font-weight: bold;
+        }
+
+        .project-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255,255,255,0.03);
+            padding: 0.8rem 1.2rem;
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 0.5rem
+        }
+
+        .project-item a {
             color: #3498db;
             text-decoration: none;
             font-size: 0.9rem;
@@ -177,7 +199,7 @@
             transition: 0.3s;
         }
 
-        .project-links .btn-detail {
+        .project-item .btn-detail {
             color: #3498db;
             display: flex;
             align-items: center;
@@ -194,11 +216,10 @@
             cursor: pointer;
         }
 
-        .project-links a:hover,
-        .project-links .btn-detail:hover {
+        .project-item a:hover,
+        .project-item .btn-detail:hover {
             background: #3498db;
             color: #fff;
-            transform: translateY(-2px);
         }
 
         /* Modal */
@@ -396,7 +417,6 @@
             <li><a href="#introduction">Intro</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#technology">Skills</a></li>
 
             <li class="nav-divider"></li>
@@ -442,6 +462,49 @@
         <div class="card">
             <h3>Software Engineer @ Midas IT</h3>
             <p>Jan 2021 - May 2024</p>
+
+            <div class="card-projects-container">
+                <div class="project-label">Key Projects</div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>Midas Viewer</h4>
+                    </div>
+                    <button class="btn-detail" data-target="modal-midas-viewer">
+                        <i class="fa-solid fa-circle-info"></i> Details
+                    </button>
+                </div>
+            </div>
+
+            <dialog id="modal-midas-viewer" class="detail-modal">
+                <div class="modal-header">
+                    <h3>Project Deep Dive: Midas Viewer</h3>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>System Architecture</h4>
+                    <img src="./assets/Project_02_01.png" alt="Architecture Diagram">
+
+                    <h4>Key Features & Implementation</h4>
+                    <p>A web-based platform for sharing and visualizing 3D structural models with integrated 2D CAD sub-views. Engineers can link detailed drawings to 3D coordinates via contextual annotations, enabling precise technical inspections in a single, device-agnostic environment.</p>
+                    <!-- <ul>
+                        <li>Implemented core <strong>Ray Tracing algorithms</strong> (Sphere/Triangle intersection, Phong shading) in <strong>C++</strong> to handle light reflection and refraction through transparent/reflective surfaces.</li>
+                        <li>Optimized rendering performance by compiling heavy computations into <strong>WebAssembly</strong>.</li>
+                        <li>Developed an interactive UI with <strong>React.js</strong> and <strong>Three.js</strong> for real-time camera manipulation.</li>
+                    </ul> -->
+
+                    <h4>Technologies Used</h4>
+                    <div class="modal-tech-stack">
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">WebSocket</span>
+                        <span class="tech-tag">WebAssembly</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+            </dialog>
         </div>
     </section>
 
@@ -450,6 +513,67 @@
         <div class="card">
             <h3>Master of Science in Computer Science</h3>
             <p>The University of Texas at Dallas</p>
+
+            <div class="card-projects-container">
+                <div class="project-label">Key Projects</div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>Ray Tracing Image Generator</h4>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/muilyang12/ray-tracing-image-generator" target="_blank">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="https://muilyang12.github.io/ray-tracing-image-generator" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <button class="btn-detail" data-target="modal-raytracing-image-generator">
+                            <i class="fa-solid fa-circle-info"></i> Details
+                        </button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>Nutrition Specs</h4>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/muilyang12/nutrition-specs" target="_blank">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <dialog id="modal-raytracing-image-generator" class="detail-modal">
+                <div class="modal-header">
+                    <h3>Project Deep Dive: Ray Tracing Image Generator</h3>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>System Architecture</h4>
+                    <img src="./assets/Project_01_01.png" alt="Architecture Diagram">
+
+                    <h4>Demo Preview</h4>
+                    <img src="./assets/Project_01_02.gif" alt="Rendering Demo">
+
+                    <h4>Key Features & Implementation</h4>
+                    <p>A high-performance web application that integrates a C++ ray tracing engine via WebAssembly (Wasm) for near-native rendering speeds. It enables physically accurate image generation from uploaded OBJ models by simulating complex light transport for every pixel directly in the browser.</p>
+                    <ul>
+                        <li>Implemented core <strong>Ray Tracing algorithms</strong> (Sphere/Triangle intersection, Phong shading) in <strong>C++</strong> to handle light reflection and refraction through transparent/reflective surfaces.</li>
+                        <li>Optimized rendering performance by compiling heavy computations into <strong>WebAssembly</strong>.</li>
+                        <li>Developed an interactive UI with <strong>React.js</strong> and <strong>Three.js</strong> for real-time camera manipulation.</li>
+                    </ul>
+
+                    <h4>Technologies Used</h4>
+                    <div class="modal-tech-stack">
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Three.js</span>
+                        <span class="tech-tag">WebAssembly</span>
+                    </div>
+                </div>
+            </dialog>
         </div>
         <div class="card">
             <h3>Bachelor of Science in Computer Science</h3>
@@ -462,109 +586,6 @@
         <div class="card">
             <h3>Study Abroad Program</h3>
             <p>The University of Texas at Arlington</p>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="card">
-            <h3>Ray Tracing Image Generator @ The University of Texas at Dallas</h3>
-            <p>Apr 2025 - May 2025</p>
-
-            <div class="project-links">
-                <a href="https://github.com/muilyang12/ray-tracing-image-generator" target="_blank">
-                    <i class="fab fa-github"></i> Code
-                </a>
-                <a href="https://muilyang12.github.io/ray-tracing-image-generator" target="_blank">
-                    <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-                <button class="btn-detail" data-target="modal-raytracing-image-generator">
-                    <i class="fa-solid fa-circle-info"></i> Details
-                </button>
-            </div>
-        </div>
-        <dialog id="modal-raytracing-image-generator" class="detail-modal">
-            <div class="modal-header">
-                <h3>Project Deep Dive: Ray Tracing Image Generator</h3>
-                <button class="close-modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <h4>System Architecture</h4>
-                <img src="./assets/Project_01_01.png" alt="Architecture Diagram">
-
-                <h4>Demo Preview</h4>
-                <img src="./assets/Project_01_02.gif" alt="Rendering Demo">
-
-                <h4>Key Features & Implementation</h4>
-                <p>A high-performance web application that integrates a C++ ray tracing engine via WebAssembly (Wasm) for near-native rendering speeds. It enables physically accurate image generation from uploaded OBJ models by simulating complex light transport for every pixel directly in the browser.</p>
-                <ul>
-                    <li>Implemented core <strong>Ray Tracing algorithms</strong> (Sphere/Triangle intersection, Phong shading) in <strong>C++</strong> to handle light reflection and refraction through transparent/reflective surfaces.</li>
-                    <li>Optimized rendering performance by compiling heavy computations into <strong>WebAssembly</strong>.</li>
-                    <li>Developed an interactive UI with <strong>React.js</strong> and <strong>Three.js</strong> for real-time camera manipulation.</li>
-                </ul>
-
-                <h4>Technologies Used</h4>
-                <div class="modal-tech-stack">
-                    <span class="tech-tag">TypeScript</span>
-                    <span class="tech-tag">C++</span>
-                    <span class="tech-tag">React.js</span>
-                    <span class="tech-tag">Three.js</span>
-                    <span class="tech-tag">WebAssembly</span>
-                </div>
-            </div>
-        </dialog>
-
-        <div class="card">
-            <h3>Midas Viewer @ Midas IT</h3>
-            <p>Jan 2022 - May 2024</p>
-
-            <div class="project-links">
-                <button class="btn-detail" data-target="modal-midas-viewer">
-                    <i class="fa-solid fa-circle-info"></i> Details
-                </button>
-            </div>
-        </div>
-        <dialog id="modal-midas-viewer" class="detail-modal">
-            <div class="modal-header">
-                <h3>Project Deep Dive: Midas Viewer</h3>
-                <button class="close-modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <h4>System Architecture</h4>
-                <img src="./assets/Project_02_01.png" alt="Architecture Diagram">
-
-                <h4>Key Features & Implementation</h4>
-                <p>A web-based platform for sharing and visualizing 3D structural models with integrated 2D CAD sub-views. Engineers can link detailed drawings to 3D coordinates via contextual annotations, enabling precise technical inspections in a single, device-agnostic environment.</p>
-                <!-- <ul>
-                    <li>Implemented core <strong>Ray Tracing algorithms</strong> (Sphere/Triangle intersection, Phong shading) in <strong>C++</strong> to handle light reflection and refraction through transparent/reflective surfaces.</li>
-                    <li>Optimized rendering performance by compiling heavy computations into <strong>WebAssembly</strong>.</li>
-                    <li>Developed an interactive UI with <strong>React.js</strong> and <strong>Three.js</strong> for real-time camera manipulation.</li>
-                </ul> -->
-
-                <h4>Technologies Used</h4>
-                <div class="modal-tech-stack">
-                    <span class="tech-tag">TypeScript</span>
-                    <span class="tech-tag">C++</span>
-                    <span class="tech-tag">React.js</span>
-                    <span class="tech-tag">Next.js</span>
-                    <span class="tech-tag">WebSocket</span>
-                    <span class="tech-tag">WebAssembly</span>
-                    <span class="tech-tag">Docker</span>
-                    <span class="tech-tag">AWS</span>
-                </div>
-            </div>
-        </dialog>
-
-        <div class="card">
-            <h3>Nutrition Specs</h3>
-            <p>Personal Project</p>
-
-            <div class="project-links">
-                <a href="https://github.com/muilyang12/nutrition-specs" target="_blank">
-                    <i class="fab fa-github"></i> Code
-                </a>
-            </div>
         </div>
     </section>
 

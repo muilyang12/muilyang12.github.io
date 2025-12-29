@@ -75,6 +75,42 @@
             align-self: center;
         }
 
+        [data-tooltip] {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        [data-tooltip]::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            top: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            text-transform: none;
+            
+            font-size: min(0.85em, 14px); 
+            padding: min(0.5em, 6px) min(0.8em, 10px);
+            border-radius: min(0.4em, 4px);
+            
+            background-color: #3498db;
+            color: #ffffff;
+            white-space: nowrap;
+            z-index: 1100;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.15s cubic-bezier(0.2, 0, 0, 1);
+            pointer-events: none;
+        }
+
+        [data-tooltip]:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
         /* Section Layout */
         section {
             min-height: 100vh;
@@ -421,9 +457,9 @@
 
             <li class="nav-divider"></li>
 
-            <li><a href="./assets/Resume - Muil Yang.pdf" target="_blank" title="Resume"><i class="fa-solid fa-file-pdf"></i></a></li>
-            <li><a href="https://github.com/muilyang12/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/muilyang/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="./assets/Resume - Muil Yang.pdf" target="_blank" data-tooltip="Resume"><i class="fa-solid fa-file-pdf"></i></a></li>
+            <li><a href="https://github.com/muilyang12/" target="_blank" data-tooltip="GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/muilyang/" target="_blank" data-tooltip="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
         </ul>
     </nav>
 
@@ -436,13 +472,13 @@
             <p>Software engineer with 3+ years of experience building scalable web applications and backend services, with additional experience designing automated testing infrastructure and CI/CD pipelines in cloud environments.</p>
 
             <div class="cta-buttons">
-                <a href="./assets/Resume - Muil Yang.pdf" class="social-icon" target="_blank" title="Resume">
+                <a href="./assets/Resume - Muil Yang.pdf" class="social-icon" target="_blank" data-tooltip="Resume">
                     <i class="fa-solid fa-file-pdf"></i>
                 </a>
-                <a href="https://github.com/muilyang12/" class="social-icon" target="_blank" title="GitHub">
+                <a href="https://github.com/muilyang12/" class="social-icon" target="_blank" data-tooltip="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/muilyang/" class="social-icon" target="_blank" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/muilyang/" class="social-icon" target="_blank" data-tooltip="LinkedIn">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>

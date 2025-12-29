@@ -515,6 +515,14 @@
                         <i class="fa-solid fa-circle-info"></i> Details
                     </button>
                 </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>Midas Member</h4>
+                    </div>
+                    <button class="btn-detail" data-target="modal-midas-member">
+                        <i class="fa-solid fa-circle-info"></i> Details
+                    </button>
+                </div>
             </div>
 
             <dialog id="modal-midas-viewer" class="detail-modal">
@@ -543,6 +551,33 @@
                         <span class="tech-tag">Next.js</span>
                         <span class="tech-tag">WebSocket</span>
                         <span class="tech-tag">WebAssembly</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+            </dialog>
+
+            <dialog id="modal-midas-member" class="detail-modal">
+                <div class="modal-header">
+                    <h3>Project Deep Dive: Midas Member</h3>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>System Architecture</h4>
+                    <img src="./assets/Project_Midas_Member_01.png" alt="Midas Member SSO System Architecture Diagram">
+
+                    <h4>Key Features & Implementation</h4>
+                    <p>A centralized identity management and SSO platform designed to unify authentication across a diverse ecosystem, ranging from desktop applications to technical support portals.</p>
+                    <ul>
+                        <li>Modernized the user management service by migrating from jQuery to <strong>React.js</strong>, improving security and user experience, driving 83% of users to transition within a quarter.</li>
+                        <li>Built an <strong>OAuth</strong>-style centralized SSO system with <strong>JWT</strong>-based access and refresh tokens, reducing redundant logins by 75%.</li>
+                    </ul>
+
+                    <h4>Technologies Used</h4>
+                    <div class="modal-tech-stack">
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Next.js</span>
                         <span class="tech-tag">Docker</span>
                         <span class="tech-tag">AWS</span>
                     </div>
